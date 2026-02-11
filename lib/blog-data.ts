@@ -1,0 +1,81 @@
+export interface BlogPost {
+    slug: string;
+    title: string;
+    excerpt: string;
+    content: string;
+    date: string;
+    coverImage: string;
+}
+
+export const blogPosts: BlogPost[] = [
+    {
+        slug: "photographe-videaste-mariage-paris-duo",
+        title: "Photographe et Vidéaste de Mariage à Paris : Pourquoi choisir un duo ?",
+        excerpt: "Engager une équipe photo et vidéo habituée à travailler ensemble est le secret pour des souvenirs cohérents et une journée fluide. Découvrez les avantages d'un duo complice.",
+        date: "25 Mai 2025",
+        coverImage: "/stills/0304.jpg",
+        content: `
+            <p>Lorsque vous organisez votre <strong>mariage à Paris</strong> ou en Île-de-France, le choix des prestataires est crucial. L'une des questions qui revient souvent est : faut-il engager un photographe et un vidéaste séparément, ou choisir une équipe "duo" ?</p>
+            <p>Chez <strong>Studio Riad</strong>, nous croyons fermement que la synergie entre la photo et la vidéo est la clé pour capturer l'essence de votre journée avec authenticité et élégance.</p>
+            
+            <h2>1. Une Esthétique Cohérente (Look & Feel)</h2>
+            <p>Rien n'est plus décevant que de recevoir des photos aux tons doux et lumineux (style "Fine Art"), accompagnées d'une vidéo aux contrastes durs et saturés. En choisissant un duo, vous garantissez une <strong>direction artistique unifiée</strong>. Vos photos et votre film de mariage raconteront la même histoire, avec la même sensibilité et la même colorimétrie.</p>
+            
+            <h2>2. Une Discrétion Assurée le Jour J</h2>
+            <p>Imaginez deux inconnus qui se battent pour le meilleur angle lors de l'échange des alliances... En travaillant en équipe, nous connaissons nos placements respectifs. Le <strong>photographe de mariage</strong> sait quand laisser le champ libre au vidéaste, et vice-versa. Résultat : moins de stress pour vous, et une présence plus discrète pour vos invités.</p>
+            
+            <h2>3. Une Couverture Plus Complète</h2>
+            <p>Pendant que l'un capture les larmes de joie de vos parents, l'autre filme votre sortie d'église au ralenti. La communication fluide entre nous permet de ne rater aucun micro-moment. C'est particulièrement important pour les mariages au rythme soutenu à <strong>Paris</strong>, où chaque seconde compte.</p>
+            
+            <h3>Conclusion</h3>
+            <p>Vos souvenirs sont l'unique trace tangible qui restera après cette journée magique. Ne laissez pas le hasard décider de leur qualité. Opter pour un duo photo-vidéo, c'est choisir la tranquillité d'esprit et l'excellence artistique.</p>
+        `
+    },
+    {
+        slug: "lieux-reception-mariage-luxe-ile-de-france",
+        title: "Les 10 Plus Beaux Lieux de Réception en Île-de-France pour des Photos Sublimes",
+        excerpt: "Châteaux historiques, domaines de charme et palaces parisiens... Guide ultime des lieux les plus photogéniques pour se marier près de Paris.",
+        date: "14 Avril 2025",
+        coverImage: "/stills/0531.jpg",
+        content: `
+            <p>Le choix du lieu de réception donne le ton de votre mariage. Pour un <strong>photographe de mariage à Paris</strong>, la lumière et le décor sont des terrains de jeu essentiels. Voici ma sélection des lieux les plus visuels en Île-de-France pour 2025.</p>
+
+            <h2>1. Château de Baronville (Eure-et-Loir)</h2>
+            <p>Un classique intemporel. Avec sa grande galerie lumineuse et ses jardins à la française, c'est le lieu idéal pour un mariage "princesse" chic. La lumière y est exceptionnelle en fin de journée pour la <em>Golden Hour</em>.</p>
+
+            <h2>2. Château de Villette (Val-d'Oise)</h2>
+            <p>Surnommé le "Petit Versailles", ce lieu respire le luxe et l'histoire. Parfait pour un <strong>mariage intime</strong> ou un "elopement" haut de gamme. Les intérieurs d'époque offrent un cadre majestueux pour vos portraits de couple.</p>
+
+            <h2>3. Château de Santeny (Val-de-Marne)</h2>
+            <p>À seulement 20km de Paris, ce château du XIXe siècle offre une façade blanche immaculée qui reflète magnifiquement la lumière. Idéal pour des photos lumineuses et épurées.</p>
+
+            <h2>4. Les Palaces Parisiens (Ritz, Shangri-La)</h2>
+            <p>Pour un mariage urbain et sophistiqué, rien ne vaut les salons historiques des grands hôtels parisiens. La vue sur la Tour Eiffel depuis le Shangri-La est un "must" pour tout <strong>vidéaste de mariage à Paris</strong>.</p>
+            
+            <h3>Conseil de Pro</h3>
+            <p>Lors de votre visite, faites attention à l'exposition du lieu. Où se couche le soleil ? Y a-t-il des zones d'ombre pour les photos de groupe s'il fait très chaud ? N'hésitez pas à demander l'avis de votre photographe avant de valider votre coup de cœur.</p>
+        `
+    },
+    {
+        slug: "conseils-planning-mariage-photos",
+        title: "Optimiser son Planning du Jour J pour des Photos Sublimes",
+        excerpt: "Ne laissez pas le stress gâcher vos photos ! Voici comment organiser votre timeline pour profiter de la meilleure lumière et rester zen.",
+        date: "02 Mars 2025",
+        coverImage: "/stills/781.jpg",
+        content: `
+            <p>Le secret des photos de mariage spontanées et naturelles ? Ce n'est pas (que) le talent du photographe, c'est le <strong>temps</strong>. Un planning trop serré crée du stress, et le stress se voit sur les visages. Voici comment structurer votre journée.</p>
+
+            <h2>1. Les Préparatifs : Comptez Large !</h2>
+            <p>Prévoyez toujours 30 minutes de plus que ce que vous annonce votre maquilleuse/coiffeur. C'est le moment idéal pour faire des portraits de détails (robe, faire-part, bijoux) et des photos volées avec vos proches.</p>
+
+            <h2>2. La "Golden Hour" : Le Saint Graal</h2>
+            <p>C'est l'heure qui précède le coucher du soleil. La lumière est douce, dorée et flatteuse. <strong>Bloquez 20 à 30 minutes</strong> dans votre planning (souvent pendant le cocktail) pour vous éclipser avec votre photographe. C'est à ce moment-là que nous réaliserons vos plus beaux portraits de couple.</p>
+
+            <h2>3. Le "First Look"</h2>
+            <p>De plus en plus de couples choisissent de se découvrir <em>avant</em> la cérémonie, en toute intimité. Cela permet de désamorcer le stress, de pleurer tranquillement (sans ruiner le maquillage devant tout le monde !) et d'avoir un moment rien qu'à vous.</p>
+
+            <h2>4. Le Cocktail</h2>
+            <p>C'est le moment de profiter ! Je recommande de faire les photos de groupe formelles (parents, témoins) le plus vite possible (15-20 min max) pour que vous puissiez ensuite boire une coupe de champagne et rire avec vos amis. C'est là que je capture les meilleurs moments <em>candid</em> (sur le vif).</p>
+        `
+    }
+];
