@@ -25,7 +25,19 @@ const galleryImages = [
     "/stills/0024.jpg",
 ];
 
-export function Gallery() {
+interface GalleryProps {
+    images?: string[];
+    title?: string;
+    subtitle?: string;
+    id?: string;
+}
+
+export function Gallery({
+    images = galleryImages,
+    title = "Moments Précieux",
+    subtitle = "Portfolio",
+    id = "photos"
+}: GalleryProps) {
     const [emblaRef, emblaApi] = useEmblaCarousel({
         loop: true,
         align: "start",
@@ -65,7 +77,7 @@ export function Gallery() {
     }, [emblaApi, onSelect, onScroll]);
 
     return (
-        <section id="photos" className="py-24 bg-white text-charcoal overflow-hidden">
+        <section id={id} className="py-24 bg-white text-charcoal overflow-hidden">
             <div className="container mx-auto px-4 md:px-8 mb-8 relative flex items-end justify-center">
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}
@@ -74,12 +86,12 @@ export function Gallery() {
                     viewport={{ once: true }}
                     className="text-center"
                 >
-                    <span className="text-gold uppercase tracking-[0.2em] text-sm">Portfolio</span>
-                    <h2 className="text-4xl md:text-5xl font-serif mt-2">Moments Précieux</h2>
+                    <span className="text-gold uppercase tracking-[0.2em] text-sm">{subtitle}</span>
+                    <h2 className="text-4xl md:text-5xl font-serif mt-2">{title}</h2>
                 </motion.div>
 
                 <div className="hidden md:block absolute right-8 bottom-1 font-serif italic text-gold/80 text-lg">
-                    Photo {selectedIndex + 1} sur {galleryImages.length}
+                    Photo {selectedIndex + 1} sur {images.length}
                 </div>
             </div>
 
@@ -87,7 +99,7 @@ export function Gallery() {
             <div className="w-full relative group">
                 <div className="overflow-visible" ref={emblaRef}>
                     <div className="flex touch-pan-y pl-4 md:pl-8 gap-4">
-                        {galleryImages.map((src, index) => (
+                        {images.map((src, index) => (
                             <div key={index} className="flex-[0_0_auto] min-w-0">
                                 <motion.div
                                     whileHover={{ opacity: 0.9 }}
@@ -133,7 +145,7 @@ export function Gallery() {
                 <div className="flex flex-col items-center gap-6">
                     {/* Dots / Bars */}
                     <div className="flex items-center gap-1.5 overflow-x-auto max-w-full pb-2 no-scrollbar">
-                        {galleryImages.map((_, index) => (
+                        {images.map((_, index) => (
                             <button
                                 key={index}
                                 onClick={() => emblaApi?.scrollTo(index)}
@@ -148,7 +160,7 @@ export function Gallery() {
 
                     {/* Mobile Counter */}
                     <div className="md:hidden font-serif italic text-gold/80">
-                        {selectedIndex + 1} / {galleryImages.length}
+                        {selectedIndex + 1} / {images.length}
                     </div>
                 </div>
             </div>

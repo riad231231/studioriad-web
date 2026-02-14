@@ -10,6 +10,7 @@ import { useLenis } from "lenis/react";
 const navLinks = [
     { name: "Photos", href: "/#photos" },
     { name: "Vidéos", href: "/#films" },
+    { name: "Photobooth", href: "/photobooth" },
     { name: "Journal", href: "/blog" },
     { name: "À propos", href: "/#about" },
     { name: "Tarifs", href: "/#services" },
