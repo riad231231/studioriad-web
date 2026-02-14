@@ -33,8 +33,7 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./out/
           server-dir: ./public_html/
-          security: loose
-          log-level: verbose
+          port: 21
           exclude: |
             **/.git*
             **/.git*/**
