@@ -4,7 +4,7 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import { Check, Calendar, Camera, Printer, Share2, MapPin } from "lucide-react";
+import { Check, Printer, Share2, MapPin } from "lucide-react";
 import { Gallery } from "@/components/Gallery";
 
 const photoboothImages = [
@@ -30,8 +30,7 @@ export default function PhotoboothPage() {
             <Navbar />
 
             {/* Hero Section */}
-            {/* Hero Section */}
-            <section className="relative h-[60vh] md:h-[70vh] flex items-center justify-center overflow-hidden">
+            <section className="relative min-h-[75vh] md:min-h-[70vh] flex items-center justify-center overflow-hidden pt-28 md:pt-0">
                 <div className="absolute inset-0 bg-cream/85 z-10" />
                 <div className="absolute inset-0">
                     <Image
