@@ -5,7 +5,7 @@ import { motion, AnimatePresence, useScroll, useTransform } from "framer-motion"
 import Image from "next/image";
 
 const heroImages = [
-    "/stills/1349.jpg",
+    "/stills/0024.jpg",
     "/stills/781.jpg",
     "/stills/774.jpg",
     "/stills/1052.jpg",
