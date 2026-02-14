@@ -1,9 +1,0 @@
-# Simple .htaccess for Next.js Static Export with trailingSlash: true
-# Serve index.html files automatically
-
-Options +MultiViews
-RewriteEngine On
-RewriteBase /
-
-# Handle 404
-ErrorDocument 404 /404.html
