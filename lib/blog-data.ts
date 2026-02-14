@@ -77,5 +77,30 @@ export const blogPosts: BlogPost[] = [
             <h2>4. Le Cocktail</h2>
             <p>C'est le moment de profiter ! Je recommande de faire les photos de groupe formelles (parents, témoins) le plus vite possible (15-20 min max) pour que vous puissiez ensuite boire une coupe de champagne et rire avec vos amis. C'est là que je capture les meilleurs moments <em>candid</em> (sur le vif).</p>
         `
+    },
+    {
+        slug: "photographe-videaste-mariage-maghrebin-paris",
+        title: "Photographe & Vidéaste Mariage Maghrébin à Paris : Conseils & Tendances",
+        excerpt: "Mariage Marocain, Algérien ou Tunisien à Paris ? Découvrez comment choisir le prestataire idéal qui saura sublimer vos traditions avec une touche moderne et cinématographique.",
+        date: "14 Février 2026",
+        coverImage: "/stills/1052.jpg",
+        content: `
+            <p>Le <strong>mariage maghrébin</strong> est bien plus qu'une simple union : c'est une célébration riche en couleurs, en émotions et en rituels séculaires. Que vous organisiez un mariage marocain, algérien ou tunisien à <strong>Paris</strong> ou en Île-de-France, le choix de votre équipe photo et vidéo est déterminant pour immortaliser ces instants précieux.</p>
+
+            <h2>1. L'Importance de la Culture et des Traditions</h2>
+            <p>Un bon <strong>photographe de mariage oriental</strong> ne se contente pas de prendre des photos ; il doit anticiper les moments clés. Du <em>Henné</em> aux différents changements de tenues (Kaftan, Takchita, Robe Kabyle...), en passant par l'entrée en Amaria, chaque étape a son importance. Chez <strong>Studio Riad</strong>, nous connaissons ces codes sur le bout des doigts, ce qui nous permet d'être toujours au bon endroit au bon moment, sans jamais interférer avec le déroulement de la cérémonie.</p>
+
+            <h2>2. Authenticité vs Posed : La Tendance 2026</h2>
+            <p>Fini les photos figées et artificielles ! La tendance actuelle est au <strong>reportage émotionnel</strong>. Les mariés veulent revivre l'ambiance réelle de leur mariage : les regards complices, les larmes de joie des parents, l'énergie de la piste de danse. Notre approche documentaire ("sur le vif") permet de capturer la spontanéité et la beauté naturelle de votre union, tout en mettant en valeur les détails somptueux de vos tenues et de la décoration.</p>
+
+            <h2>3. Le Duo Photo & Vidéo : Indispensable</h2>
+            <p>Pour un mariage d'une telle ampleur, coordonner un photographe et un vidéaste qui ne se connaissent pas peut être risqué. En optant pour notre duo habitué à travailler ensemble, vous garantissez une couverture complète et harmonieuse. Pendant que l'un capture les détails de la <em>Negafa</em>, l'autre filme l'ambiance générale. Le résultat ? Un film de mariage cinématographique et un album photo qui racontent la même histoire, avec la même esthétique soignée.</p>
+
+            <h2>4. Les Lieux Emblématiques de Paris</h2>
+            <p>Profitez de votre mariage à Paris pour réaliser une séance couple inoubliable ! Tour Eiffel, Petit Palais, Pont Alexandre III... Nous vous guidons vers les meilleurs spots pour des images à couper le souffle, en jouant avec la lumière dorée de la capitale. Ces photos apporteront une touche de glamour intemporel à votre album de mariage traditionnel.</p>
+
+            <h3>Conclusion</h3>
+            <p>Votre mariage est unique. Il mérite des souvenirs à la hauteur de l'événement. En choisissant des professionnels spécialisés dans le <strong>mariage maghrébin à Paris</strong>, vous vous assurez que chaque tradition, chaque sourire et chaque détail sera sublimé pour l'éternité.</p>
+        `
     }
 ];
