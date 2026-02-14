@@ -43,7 +43,8 @@ Once the transfer is complete, go to `studioriad.com` (or your domain) in your b
 
 ## Troubleshooting
 
--   **404 Errors**: Ensure you copied the `.html` files correctly.
+-   **Redirect Loops**: If you see "Too many redirects", try deleting the old `photobooth.html` file on the server if you have a `photobooth` folder now.
+-   **404 Errors**: Ensure you copied the `.html` files (or folders for pages) correctly.
 -   **Missing Styles/Images**: Ensure the `_next` folder was uploaded completely. It contains all your assets.
 
 ## Alternative: Browser Deployment (Drag & Drop)
