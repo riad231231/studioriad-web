@@ -7,7 +7,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     const baseUrl = 'https://studioriad.com'
 
     const blogRoutes = blogPosts.map((post) => ({
-        url: `${baseUrl}/blog/${post.slug}`,
+        url: `${baseUrl}/blog/${post.slug}/`,
         lastModified: new Date(),
         changeFrequency: 'monthly' as const,
         priority: 0.7,
@@ -21,13 +21,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
             priority: 1,
         },
         {
-            url: `${baseUrl}/photobooth`,
+            url: `${baseUrl}/photobooth/`,
             lastModified: new Date(),
             changeFrequency: 'monthly',
             priority: 0.9,
         },
         {
-            url: `${baseUrl}/blog`,
+            url: `${baseUrl}/blog/`,
             lastModified: new Date(),
             changeFrequency: 'weekly',
             priority: 0.8,
