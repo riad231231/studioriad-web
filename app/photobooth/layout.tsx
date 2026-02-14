@@ -17,7 +17,7 @@ export default function PhotoboothLayout({
         "@context": "https://schema.org",
         "@type": "Product",
         "name": "Location Borne à Selfie / Photobooth - Studio Riad",
-        "image": "https://studioriad.com/photobooth/borne-selfies.jpg",
+        "image": "https://studioriad.com/pb-images/borne-selfies.jpg",
         "description": "Location de borne photo tactile design pour mariages et événements à Paris et Île-de-France (94400 Vitry-sur-Seine). Impressions instantanées, galerie web, qualité reflex.",
         "brand": {
             "@type": "Brand",

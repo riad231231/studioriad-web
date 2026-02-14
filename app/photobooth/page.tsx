@@ -8,20 +8,20 @@ import { Check, Printer, Share2, MapPin } from "lucide-react";
 import { Gallery } from "@/components/Gallery";
 
 const photoboothImages = [
-    "/photobooth/Photobooth00001.jpg",
-    "/photobooth/Photobooth00002.jpg",
-    "/photobooth/Photobooth00003.jpg",
-    "/photobooth/Photobooth00004.jpg",
-    "/photobooth/Photobooth00005.jpg",
-    "/photobooth/Photobooth00006.jpg",
-    "/photobooth/Photobooth00007.jpg",
-    "/photobooth/Photobooth00008.jpg",
-    "/photobooth/Photobooth00009.jpg",
-    "/photobooth/Photobooth00010.jpg",
-    "/photobooth/Photobooth00011.jpg",
-    "/photobooth/Photobooth00012.jpg",
-    "/photobooth/Photobooth00013.jpg",
-    "/photobooth/Photobooth00014.jpg",
+    "/pb-images/Photobooth00001.jpg",
+    "/pb-images/Photobooth00002.jpg",
+    "/pb-images/Photobooth00003.jpg",
+    "/pb-images/Photobooth00004.jpg",
+    "/pb-images/Photobooth00005.jpg",
+    "/pb-images/Photobooth00006.jpg",
+    "/pb-images/Photobooth00007.jpg",
+    "/pb-images/Photobooth00008.jpg",
+    "/pb-images/Photobooth00009.jpg",
+    "/pb-images/Photobooth00010.jpg",
+    "/pb-images/Photobooth00011.jpg",
+    "/pb-images/Photobooth00012.jpg",
+    "/pb-images/Photobooth00013.jpg",
+    "/pb-images/Photobooth00014.jpg",
 ];
 
 export default function PhotoboothPage() {
@@ -34,7 +34,7 @@ export default function PhotoboothPage() {
                 <div className="absolute inset-0 bg-cream/85 z-10" />
                 <div className="absolute inset-0">
                     <Image
-                        src="/photobooth/Photobooth00006.jpg"
+                        src="/pb-images/Photobooth00006.jpg"
                         alt="Photobooth Nano Banana Pro à Paris"
                         fill
                         className="object-cover opacity-60 grayscale"
@@ -89,7 +89,7 @@ export default function PhotoboothPage() {
                     >
                         {/* Placeholder for Product Image - User to update */}
                         <Image
-                            src="/photobooth/borne-selfies.jpg"
+                            src="/pb-images/borne-selfies.jpg"
                             alt="Borne à Selfies Studio Riad"
                             fill
                             className="object-cover"
