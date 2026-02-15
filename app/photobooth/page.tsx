@@ -8,20 +8,20 @@ import { Check, Printer, Share2, MapPin } from "lucide-react";
 import { Gallery } from "@/components/Gallery";
 
 const photoboothImages = [
-    "/pb-images/Photobooth00001.jpg",
-    "/pb-images/Photobooth00002.jpg",
-    "/pb-images/Photobooth00003.jpg",
-    "/pb-images/Photobooth00004.jpg",
-    "/pb-images/Photobooth00005.jpg",
-    "/pb-images/Photobooth00006.jpg",
-    "/pb-images/Photobooth00007.jpg",
-    "/pb-images/Photobooth00008.jpg",
-    "/pb-images/Photobooth00009.jpg",
-    "/pb-images/Photobooth00010.jpg",
-    "/pb-images/Photobooth00011.jpg",
-    "/pb-images/Photobooth00012.jpg",
-    "/pb-images/Photobooth00013.jpg",
-    "/pb-images/Photobooth00014.jpg",
+    "/pb-images/location-photobooth-mariage-paris.jpg",
+    "/pb-images/borne-selfie-soiree-entreprise-idf.jpg",
+    "/pb-images/animation-photo-mariage-94.jpg",
+    "/pb-images/photobooth-anniversaire-val-de-marne.jpg",
+    "/pb-images/borne-photo-luxe-paris.jpg",
+    "/pb-images/photobooth-vitry-sur-seine.jpg",
+    "/pb-images/animation-mariage-originale-idf.jpg",
+    "/pb-images/photobox-evenementiel-paris.jpg",
+    "/pb-images/borne-a-selfie-location-pas-cher.jpg",
+    "/pb-images/photobooth-mariage-champetre-idf.jpg",
+    "/pb-images/animation-photo-cocktail-entreprise.jpg",
+    "/pb-images/location-borne-photo-essonne.jpg",
+    "/pb-images/photobooth-mariage-haut-de-gamme.jpg",
+    "/pb-images/animation-photo-seminaire-paris.jpg",
 ];
 
 export default function PhotoboothPage() {
@@ -34,7 +34,7 @@ export default function PhotoboothPage() {
                 <div className="absolute inset-0 bg-cream/85 z-10" />
                 <div className="absolute inset-0">
                     <Image
-                        src="/pb-images/Photobooth00006.jpg"
+                        src="/pb-images/photobooth-vitry-sur-seine.jpg"
                         alt="Photobooth Nano Banana Pro à Paris"
                         fill
                         className="object-cover opacity-60 grayscale"
