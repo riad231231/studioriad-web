@@ -1,4 +1,4 @@
-import { Navbar } from "@/components/Navbar";
+// import { Navbar } from "@/components/Navbar";
 import { Hero } from "@/components/Hero";
 import { About } from "@/components/About";
 import { Reviews } from "@/components/Reviews";
@@ -10,7 +10,7 @@ import { Footer } from "@/components/Footer";
 export default function Home() {
   return (
     <main className="min-h-screen bg-cream selection:bg-gold selection:text-white">
-      <Navbar />
+      {/* Navbar is now in global layout */}
       <Hero />
       <About />
       <Reviews />

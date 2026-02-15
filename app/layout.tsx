@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Cormorant_Garamond, Inter } from "next/font/google";
 import "./globals.css";
 import { SmoothScroll } from "@/components/SmoothScroll";
+import { Navbar } from "@/components/Navbar";
 
 const cormorant = Cormorant_Garamond({
   variable: "--font-cormorant",
@@ -35,6 +36,7 @@ export default function RootLayout({
         className={`${cormorant.variable} ${inter.variable} antialiased bg-[#F9F9F7] text-[#1A1A1A]`}
         suppressHydrationWarning
       >
+        <Navbar />
         <SmoothScroll>{children}</SmoothScroll>
       </body>
     </html>

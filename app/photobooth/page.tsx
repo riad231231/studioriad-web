@@ -1,6 +1,6 @@
 "use client";
 
-import { Navbar } from "@/components/Navbar";
+// import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import Image from "next/image";
 import { motion } from "framer-motion";
@@ -27,7 +27,7 @@ const photoboothImages = [
 export default function PhotoboothPage() {
     return (
         <main className="min-h-screen bg-cream selection:bg-gold selection:text-white">
-            <Navbar />
+            {/* Navbar is now in global layout */}
 
             {/* Hero Section */}
             <section className="relative min-h-[75vh] md:min-h-[70vh] flex items-center justify-center overflow-hidden pt-28 md:pt-0">
@@ -90,7 +90,7 @@ export default function PhotoboothPage() {
                         {/* Placeholder for Product Image - User to update */}
                         <Image
                             src="/pb-images/borne-selfies.jpg"
-                            alt="Borne à Selfies Studio Riad"
+                            alt="Borne à Selfies Studioriad"
                             fill
                             className="object-cover"
                         />

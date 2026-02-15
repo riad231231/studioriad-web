@@ -16,7 +16,7 @@ export const blogPosts: BlogPost[] = [
         coverImage: "/stills/0304.jpg",
         content: `
             <p>Lorsque vous organisez votre <strong>mariage à Paris</strong> ou en Île-de-France, le choix des prestataires est crucial. L'une des questions qui revient souvent est : faut-il engager un photographe et un vidéaste séparément, ou choisir une équipe "duo" ?</p>
-            <p>Chez <strong>Studio Riad</strong>, nous croyons fermement que la synergie entre la photo et la vidéo est la clé pour capturer l'essence de votre journée avec authenticité et élégance.</p>
+            <p>Chez <strong>Studioriad</strong>, nous croyons fermement que la synergie entre la photo et la vidéo est la clé pour capturer l'essence de votre journée avec authenticité et élégance.</p>
             
             <h2>1. Une Esthétique Cohérente (Look & Feel)</h2>
             <p>Rien n'est plus décevant que de recevoir des photos aux tons doux et lumineux (style "Fine Art"), accompagnées d'une vidéo aux contrastes durs et saturés. En choisissant un duo, vous garantissez une <strong>direction artistique unifiée</strong>. Vos photos et votre film de mariage raconteront la même histoire, avec la même sensibilité et la même colorimétrie.</p>
@@ -88,7 +88,7 @@ export const blogPosts: BlogPost[] = [
             <p>Le <strong>mariage maghrébin</strong> est bien plus qu'une simple union : c'est une célébration riche en couleurs, en émotions et en rituels séculaires. Que vous organisiez un mariage marocain, algérien ou tunisien à <strong>Paris</strong> ou en Île-de-France, le choix de votre équipe photo et vidéo est déterminant pour immortaliser ces instants précieux.</p>
 
             <h2>1. L'Importance de la Culture et des Traditions</h2>
-            <p>Un bon <strong>photographe de mariage oriental</strong> ne se contente pas de prendre des photos ; il doit anticiper les moments clés. Du <em>Henné</em> aux différents changements de tenues (Kaftan, Takchita, Robe Kabyle...), en passant par l'entrée en Amaria, chaque étape a son importance. Chez <strong>Studio Riad</strong>, nous connaissons ces codes sur le bout des doigts, ce qui nous permet d'être toujours au bon endroit au bon moment, sans jamais interférer avec le déroulement de la cérémonie.</p>
+            <p>Un bon <strong>photographe de mariage oriental</strong> ne se contente pas de prendre des photos ; il doit anticiper les moments clés. Du <em>Henné</em> aux différents changements de tenues (Kaftan, Takchita, Robe Kabyle...), en passant par l'entrée en Amaria, chaque étape a son importance. Chez <strong>Studioriad</strong>, nous connaissons ces codes sur le bout des doigts, ce qui nous permet d'être toujours au bon endroit au bon moment, sans jamais interférer avec le déroulement de la cérémonie.</p>
 
             <h2>2. Authenticité vs Posed : La Tendance 2026</h2>
             <p>Fini les photos figées et artificielles ! La tendance actuelle est au <strong>reportage émotionnel</strong>. Les mariés veulent revivre l'ambiance réelle de leur mariage : les regards complices, les larmes de joie des parents, l'énergie de la piste de danse. Notre approche documentaire ("sur le vif") permet de capturer la spontanéité et la beauté naturelle de votre union, tout en mettant en valeur les détails somptueux de vos tenues et de la décoration.</p>

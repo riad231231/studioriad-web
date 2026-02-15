@@ -10,10 +10,11 @@ import { useLenis } from "lenis/react";
 const navLinks = [
     { name: "Photos", href: "/#photos" },
     { name: "Vidéos", href: "/#films" },
-    { name: "Photobooth", href: "/photobooth" },
-    { name: "Journal", href: "/blog" },
     { name: "À propos", href: "/#about" },
     { name: "Tarifs", href: "/#services" },
+    { name: "Photobooth", href: "/photobooth" },
+    { name: "Journal", href: "/blog" },
+    { name: "Photos Identité", href: "/photos-identite" },
     { name: "Contact", href: "/#contact" },
 ];
 
@@ -63,7 +64,7 @@ export function Navbar() {
             animate={{ y: 0 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
         >
-            <div className="container mx-auto px-6 flex items-center justify-between">
+            <div className="container mx-auto px-6 flex items-center justify-between md:justify-start md:gap-12">
                 <Link
                     href="/"
                     onClick={(e) => {
@@ -79,19 +80,28 @@ export function Navbar() {
                 </Link>
 
                 {/* Desktop Menu */}
-                <nav className="hidden md:flex items-center space-x-8">
-                    {navLinks.map((link) => (
-                        <Link
-                            key={link.name}
-                            href={link.href}
-                            onClick={(e) => handleLinkClick(e, link.href)}
-                            className={cn(
-                                "text-sm uppercase tracking-widest hover:text-gold transition-colors font-medium",
-                                scrolled || pathname !== "/" ? "text-charcoal/80" : "text-white/90"
+                <nav className="hidden md:flex items-center space-x-6">
+                    {navLinks.map((link, index) => (
+                        <div key={link.name} className="flex items-center gap-6">
+                            <Link
+                                href={link.href}
+                                onClick={(e) => handleLinkClick(e, link.href)}
+                                className={cn(
+                                    "text-sm uppercase tracking-widest hover:text-gold transition-colors font-medium",
+                                    scrolled || pathname !== "/" ? "text-charcoal/80" : "text-white/90"
+                                )}
+                            >
+                                {link.name}
+                            </Link>
+                            {index < navLinks.length - 1 && (
+                                <span className={cn(
+                                    "text-sm font-light",
+                                    scrolled || pathname !== "/" ? "text-charcoal/30" : "text-white/30"
+                                )}>
+                                    |
+                                </span>
                             )}
-                        >
-                            {link.name}
-                        </Link>
+                        </div>
                     ))}
                 </nav>
 

@@ -1,3 +1,4 @@
+
 # Automatisation du déploiement via GitHub
 
 C'est une excellente idée ! Automatiser le déploiement va vous faire gagner beaucoup de temps. Comme je ne peux pas me connecter directement à votre FTP pour des raisons de sécurité, la meilleure méthode est d'utiliser **GitHub Actions**.
