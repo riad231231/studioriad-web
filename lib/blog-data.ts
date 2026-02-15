@@ -103,4 +103,47 @@ export const blogPosts: BlogPost[] = [
             <p>Votre mariage est unique. Il mérite des souvenirs à la hauteur de l'événement. En choisissant des professionnels spécialisés dans le <strong>mariage maghrébin à Paris</strong>, vous vous assurez que chaque tradition, chaque sourire et chaque détail sera sublimé pour l'éternité.</p>
         `
     }
+    {
+        slug: "photo-identite-bebe-vitry-conforme",
+        title: "Photo d'identité Bébé à Vitry-sur-Seine : Pourquoi éviter le Photomaton ?",
+        excerpt: "Réussir une photo d'identité pour un nourrisson est un défi. Découvrez pourquoi le studio est la seule garantie de conformité ANTS face aux photomatons.",
+        date: "16 Février 2026",
+        coverImage: "/stills/bebe-identite.jpg", // Placeholder image path
+        content: `
+            <p>Tous les jeunes parents connaissent ce moment de stress : la mairie demande une <strong>photo d'identité conforme</strong> pour le passeport ou la carte d'identité de bébé. Premier réflexe ? Le photomaton du coin. Résultat : des pleurs, de l'argent perdu, et souvent un refus au guichet.</p>
+            <p>À <strong>Vitry-sur-Seine</strong>, Studioriad vous propose une alternative sereine et garantie à 100%.</p>
+
+            <h2>Pourquoi le Photomaton est inadapté aux bébés ?</h2>
+            <p>Les cabines automatiques sont conçues pour des adultes assis, immobiles. Pour un nouveau-né ou un bébé qui ne tient pas sa tête, c'est mission impossible :</p>
+            <ul>
+                <li><strong>L'éclairage est brutal :</strong> Le flash direct fait souvent fermer les yeux au bébé (or, les yeux doivent être ouverts !).</li>
+                <li><strong>Le cadrage est fixe :</strong> Impossible d'ajuster l'objectif à la hauteur d'un nourrisson dans un cosi.</li>
+                <li><strong>Aucune patience :</strong> La machine ne vous attendra pas si bébé a besoin d'être rassuré ou replacé.</li>
+            </ul>
+
+            <h2>Les 3 Règles d'Or de la conformité ANTS</h2>
+            <p>Pour être acceptée par l'administration française, la photo de votre enfant doit respecter des critères stricts (norme ISO/IEC 19794-5) :</p>
+            <ol>
+                <li><strong>Visage dégagé :</strong> Pas de tétine, pas de bonnet, pas de cheveux sur les yeux, et surtout... pas de mains (ni les siennes, ni celles des parents qui le tiennent !).</li>
+                <li><strong>Expression neutre :</strong> Bouche fermée, regard droit vers l'objectif. C'est le plus difficile à obtenir sans un photographe professionnel.</li>
+                <li><strong>Fond uni et clair :</strong> Mais pas blanc (interdit). Nous utilisons un fond gris clair homologué.</li>
+            </ol>
+
+            <h2>La Méthode Studioriad : Douceur et Expertise</h2>
+            <p>En tant que <strong>photographe professionnel à Vitry-sur-Seine</strong>, j'ai l'habitude des tout-petits. Voici comment se déroule une séance :</p>
+            <ul>
+                <li><strong>Temps illimité (ou presque) :</strong> On prend le temps qu'il faut. Si bébé pleure, on fait une pause câlin.</li>
+                <li><strong>Matériel adapté :</strong> J'utilise un éclairage de studio doux qui ne brusque pas l'enfant, et je shoote à sa hauteur, souvent allongé pour les nourrissons.</li>
+                <li><strong>Garantie "Satisfait ou Remboursé" :</strong> Si jamais la photo est refusée en mairie (ce qui n'arrive jamais), je la refais gratuitement.</li>
+            </ul>
+
+            <h2>Prendre Rendez-vous à Vitry</h2>
+            <p>Ne jouez pas à la loterie avec les documents officiels de vos enfants. Pour 15€, repartez avec votre planche de photos découpées, conformes et jolies (car oui, c'est possible !).</p>
+            <p>Le studio est situé à Vitry-sur-Seine, accessible facilement depuis <strong>Ivry-sur-Seine, Choisy-le-Roi et Villejuif</strong>.</p>
+            
+            <div style="margin-top: 30px; text-align: center;">
+                <a href="/photos-identite" style="background-color: #D4AF37; color: white; padding: 15px 30px; text-decoration: none; border-radius: 50px; font-weight: bold;">Voir les tarifs et réserver</a>
+            </div>
+        `
+    }
 ];
