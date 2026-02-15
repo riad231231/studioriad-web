@@ -102,7 +102,7 @@ export const blogPosts: BlogPost[] = [
             <h3>Conclusion</h3>
             <p>Votre mariage est unique. Il mérite des souvenirs à la hauteur de l'événement. En choisissant des professionnels spécialisés dans le <strong>mariage maghrébin à Paris</strong>, vous vous assurez que chaque tradition, chaque sourire et chaque détail sera sublimé pour l'éternité.</p>
         `
-    }
+    },
     {
         slug: "photo-identite-bebe-vitry-conforme",
         title: "Photo d'identité Bébé à Vitry-sur-Seine : Pourquoi éviter le Photomaton ?",
