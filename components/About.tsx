@@ -24,7 +24,7 @@ export function About() {
                     {/* Image Column */}
                     <div className="w-full md:w-5/12 relative aspect-[3/4] overflow-hidden rounded-sm shadow-xl">
                         <Image
-                            src="/stills/riad.jpg"
+                            src="/stills/riad-photographe-mariage-paris.jpg"
                             alt="Riad - Photographe Mariage"
                             fill
                             className="object-cover transition-transform duration-700 hover:scale-105"
@@ -51,13 +51,13 @@ export function About() {
 
                         </div>
                         <div className="pt-4">
-                            <Image
+                            {/* <Image
                                 src="/signature.png" // Placeholder if needed, or just remove if no signature image
                                 alt=""
                                 width={150}
                                 height={50}
                                 className="opacity-0" // Hidden for now as we don't have it, relying on text
-                            />
+                            /> */}
                         </div>
                     </div>
                 </motion.div>

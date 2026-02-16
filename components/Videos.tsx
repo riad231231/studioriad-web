@@ -42,11 +42,11 @@ const videos = [
 
 // Real images from "cine small" folder
 const cineImages = [
-    "/cine-small/cine00001.jpg", "/cine-small/cine00002.jpg", "/cine-small/cine00003.jpg", "/cine-small/cine00004.jpg",
-    "/cine-small/cine00005.jpg", "/cine-small/cine00006.jpg", "/cine-small/cine00007.jpg", "/cine-small/cine00008.jpg",
-    "/cine-small/cine00009.jpg", "/cine-small/cine00010.jpg", "/cine-small/cine00011.jpg", "/cine-small/cine00012.jpg",
-    "/cine-small/cine00013.jpg", "/cine-small/cine00014.jpg", "/cine-small/cine00015.jpg", "/cine-small/cine00016.jpg",
-    "/cine-small/cine00017.jpg", "/cine-small/cine00018.jpg", "/cine-small/cine00019.jpg", "/cine-small/cine00020.jpg"
+    "/cine-small/videaste-mariage-paris-luxe.jpg", "/cine-small/film-mariage-cinematique-ile-de-france.jpg", "/cine-small/capture-video-mariage-prestige.jpg", "/cine-small/videaste-mariage-luxe-paris.jpg",
+    "/cine-small/film-emotion-mariage.jpg", "/cine-small/videaste-mariage-destination-france.jpg", "/cine-small/story-telling-mariage-video.jpg", "/cine-small/cinematographie-mariage-paris.jpg",
+    "/cine-small/videaste-mariage-haut-de-gamme.jpg", "/cine-small/film-mariage-elegance.jpg", "/cine-small/videaste-mariage-monument-paris.jpg", "/cine-small/video-mariage-art-et-essai.jpg",
+    "/cine-small/film-mariage-romantique.jpg", "/cine-small/videaste-mariage-chateau-france.jpg", "/cine-small/video-mariage-intime-paris.jpg", "/cine-small/film-mariage-grande-reception.jpg",
+    "/cine-small/videaste-mariage-mode-paris.jpg", "/cine-small/video-mariage-detail-luxe.jpg", "/cine-small/film-mariage-soiree-dansante.jpg", "/cine-small/videaste-mariage-final-cut.jpg"
 ];
 
 export function Videos() {

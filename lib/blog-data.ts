@@ -13,7 +13,7 @@ export const blogPosts: BlogPost[] = [
         title: "Photographe et Vidéaste de Mariage à Paris : Pourquoi choisir un duo ?",
         excerpt: "Engager une équipe photo et vidéo habituée à travailler ensemble est le secret pour des souvenirs cohérents et une journée fluide. Découvrez les avantages d'un duo complice.",
         date: "25 Mai 2025",
-        coverImage: "/stills/0304.jpg",
+        coverImage: "/stills/photographe-videaste-mariage-paris.jpg",
         content: `
             <p>Lorsque vous organisez votre <strong>mariage à Paris</strong> ou en Île-de-France, le choix des prestataires est crucial. L'une des questions qui revient souvent est : faut-il engager un photographe et un vidéaste séparément, ou choisir une équipe "duo" ?</p>
             <p>Chez <strong>Studioriad</strong>, nous croyons fermement que la synergie entre la photo et la vidéo est la clé pour capturer l'essence de votre journée avec authenticité et élégance.</p>
@@ -36,7 +36,7 @@ export const blogPosts: BlogPost[] = [
         title: "Les 10 Plus Beaux Lieux de Réception en Île-de-France pour des Photos Sublimes",
         excerpt: "Châteaux historiques, domaines de charme et palaces parisiens... Guide ultime des lieux les plus photogéniques pour se marier près de Paris.",
         date: "14 Avril 2025",
-        coverImage: "/stills/0531.jpg",
+        coverImage: "/stills/reception-mariage-ile-de-france.jpg",
         content: `
             <p>Le choix du lieu de réception donne le ton de votre mariage. Pour un <strong>photographe de mariage à Paris</strong>, la lumière et le décor sont des terrains de jeu essentiels. Voici ma sélection des lieux les plus visuels en Île-de-France pour 2025.</p>
 
@@ -61,7 +61,7 @@ export const blogPosts: BlogPost[] = [
         title: "Optimiser son Planning du Jour J pour des Photos Sublimes",
         excerpt: "Ne laissez pas le stress gâcher vos photos ! Voici comment organiser votre timeline pour profiter de la meilleure lumière et rester zen.",
         date: "02 Mars 2025",
-        coverImage: "/stills/781.jpg",
+        coverImage: "/stills/photographe-mariage-luxe-paris.jpg",
         content: `
             <p>Le secret des photos de mariage spontanées et naturelles ? Ce n'est pas (que) le talent du photographe, c'est le <strong>temps</strong>. Un planning trop serré crée du stress, et le stress se voit sur les visages. Voici comment structurer votre journée.</p>
 
@@ -83,7 +83,7 @@ export const blogPosts: BlogPost[] = [
         title: "Photographe & Vidéaste Mariage Maghrébin à Paris : Conseils & Tendances",
         excerpt: "Mariage Marocain, Algérien ou Tunisien à Paris ? Découvrez comment choisir le prestataire idéal qui saura sublimer vos traditions avec une touche moderne et cinématographique.",
         date: "14 Février 2026",
-        coverImage: "/stills/1052.jpg",
+        coverImage: "/stills/mariage-maghrebin-paris.jpg",
         content: `
             <p>Le <strong>mariage maghrébin</strong> est bien plus qu'une simple union : c'est une célébration riche en couleurs, en émotions et en rituels séculaires. Que vous organisiez un mariage marocain, algérien ou tunisien à <strong>Paris</strong> ou en Île-de-France, le choix de votre équipe photo et vidéo est déterminant pour immortaliser ces instants précieux.</p>
 

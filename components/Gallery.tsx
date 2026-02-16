@@ -8,21 +8,21 @@ import { X, Play, ChevronLeft, ChevronRight } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 const galleryImages = [
-    "/stills/242.jpg",
-    "/stills/0002.jpg",
-    "/stills/1349.jpg",
-    "/stills/0531.jpg",
-    "/stills/503.jpg",
-    "/stills/1052.jpg",
-    "/stills/1218.jpg",
-    "/stills/764.jpg",
-    "/stills/1010.jpg",
-    "/stills/0616.jpg",
-    "/stills/156.jpg",
-    "/stills/543.jpg",
-    "/stills/0492.jpg",
-    "/stills/0296.jpg",
-    "/stills/0024.jpg",
+    "/stills/portrait-mariee-paris.jpg",
+    "/stills/photographe-mariage-paris-01.jpg",
+    "/stills/cocktail-mariage-paris.jpg",
+    "/stills/reception-mariage-ile-de-france.jpg",
+    "/stills/details-mariage-luxe.jpg",
+    "/stills/mariage-maghrebin-paris.jpg",
+    "/stills/ceremonie-laique-ile-de-france.jpg",
+    "/stills/entree-des-maries-paris.jpg",
+    "/stills/preparatifs-mariage-paris-01.jpg",
+    "/stills/session-couple-paris-01.jpg",
+    "/stills/soiree-mariage-region-parisienne.jpg",
+    "/stills/emotion-mariage-paris.jpg",
+    "/stills/mariage-luxe-ile-de-france-01.jpg",
+    "/stills/reportage-mariage-region-parisienne-01.jpg",
+    "/stills/mariage-ile-de-france-01.jpg",
 ];
 
 interface GalleryProps {
