@@ -37,7 +37,10 @@ export function Footer() {
 
                 <div className="border-t border-cream/10 pt-8 flex flex-col md:flex-row justify-between items-center text-xs text-cream/40 uppercase tracking-widest">
                     <p>&copy; {new Date().getFullYear()} Studioriad.com Tous droits réservés.</p>
-                    <p className="mt-2 md:mt-0">SIREN 512947102</p>
+                    <div className="flex gap-4 mt-2 md:mt-0">
+                        <a href="/cgv" className="hover:text-gold transition-colors">CGV & Mentions Légales</a>
+                        <p>SIREN 512947102</p>
+                    </div>
                 </div>
             </div>
         </footer>
