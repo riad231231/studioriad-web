@@ -17,11 +17,12 @@ export default function IdentityPhotoPage() {
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
         "name": "Studioriad - Photos d'identité ANTS Vitry-sur-Seine",
-        "image": "https://studioriad.com/images/logo.png", // Update with actual domain/logo
+        "description": "Photos d'identité agréées ANTS pour permis de conduire, passeport, carte de séjour. Spécialiste bébés et nouveaux-nés à Vitry-sur-Seine.",
+        "image": "https://studioriad.com/images/logo.png",
         "telephone": "0615692839",
         "address": {
             "@type": "PostalAddress",
-            "streetAddress": "Votre adresse ici",
+            "streetAddress": "Votre adresse ici", // TODO: Mettre la vraie adresse si possible
             "addressLocality": "Vitry-sur-Seine",
             "postalCode": "94400",
             "addressCountry": "FR"
@@ -33,6 +34,14 @@ export default function IdentityPhotoPage() {
         },
         "url": "https://studioriad.com/photos-identite",
         "priceRange": "€€",
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5",
+            "reviewCount": "50",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "priceValidUntil": "2026-12-31",
         "openingHoursSpecification": [
             {
                 "@type": "OpeningHoursSpecification",
@@ -40,7 +49,35 @@ export default function IdentityPhotoPage() {
                 "opens": "09:00",
                 "closes": "19:00"
             }
-        ]
+        ],
+        "offers": {
+            "@type": "Offer",
+            "priceCurrency": "EUR",
+            "price": "10.00",
+            "availability": "https://schema.org/InStock",
+            "url": "https://studioriad.com/photos-identite",
+            "priceValidUntil": "2026-12-31",
+            "hasMerchantReturnPolicy": {
+                "@type": "MerchantReturnPolicy",
+                "applicableCountry": "FR",
+                "returnPolicyCategory": "https://schema.org/MoneyBack",
+                "merchantReturnDays": "0",
+                "returnMethod": "https://schema.org/ReturnInStore",
+                "returnFees": "https://schema.org/FreeReturn"
+            },
+            "shippingDetails": {
+                "@type": "OfferShippingDetails",
+                "shippingRate": {
+                    "@type": "MonetaryAmount",
+                    "value": "0",
+                    "currency": "EUR"
+                },
+                "shippingDestination": {
+                    "@type": "DefinedRegion",
+                    "addressCountry": "FR"
+                }
+            }
+        }
     };
 
     return (

@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Studioriad//Content Manager//FR
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260301
+DTEND;VALUE=DATE:20260302
+SUMMARY:🚀 Studioriad : Maintenance SEO & Post Blog
+DESCRIPTION:👋 C'est l'heure de la visibilité !\n1. Ouvre notre conversation.\n2. Lance l'Agent SEO : "Agent, lance la maintenance de mars".\n3. Donne-lui 3-4 photos.\nSujet : ePhoto Permis & Saison Printemps.
+RRULE:FREQ=MONTHLY;BYMONTHDAY=1;COUNT=12
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
