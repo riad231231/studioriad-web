@@ -5,10 +5,10 @@ import { motion, AnimatePresence, useScroll, useTransform } from "framer-motion"
 import Image from "next/image";
 
 const heroImages = [
-    "pb-images/animation-photo-cocktail-entreprise.jpg",
-    "/stills/photographe-mariage-luxe-paris.jpg",
-    "/stills/couple-shooting-eiffel.jpg",
     "/stills/mariage-maghrebin-paris.jpg",
+    "/stills/reception-mariage-ile-de-france.jpg",
+    "/stills/couple-shooting-eiffel.jpg",
+    "/stills/mariage-civil-paris-01.jpg",
 ];
 
 export function Hero() {
