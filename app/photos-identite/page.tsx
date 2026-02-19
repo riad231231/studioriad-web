@@ -22,7 +22,7 @@ export default function IdentityPhotoPage() {
         "telephone": "0615692839",
         "address": {
             "@type": "PostalAddress",
-            "streetAddress": "Votre adresse ici", // TODO: Mettre la vraie adresse si possible
+            "streetAddress": "23 Avenue Gambetta",
             "addressLocality": "Vitry-sur-Seine",
             "postalCode": "94400",
             "addressCountry": "FR"
@@ -47,7 +47,7 @@ export default function IdentityPhotoPage() {
                 "@type": "OpeningHoursSpecification",
                 "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
                 "opens": "09:00",
-                "closes": "19:00"
+                "closes": "17:00"
             }
         ],
         "offers": {
@@ -260,7 +260,7 @@ export default function IdentityPhotoPage() {
                                     </div>
                                     <div>
                                         <h4 className="font-semibold text-charcoal">Studioriad</h4>
-                                        <p className="text-charcoal/60">Vitry-sur-Seine</p>
+                                        <p className="text-charcoal/60">23 Avenue Gambetta<br />94400 Vitry-sur-Seine</p>
                                         <a href="https://share.google/AFYPZjZmDsNkd0BDs" target="_blank" className="text-gold text-sm hover:underline mt-1 block font-medium">Voir l'itinéraire</a>
                                     </div>
                                 </div>
@@ -279,7 +279,7 @@ export default function IdentityPhotoPage() {
                                     </div>
                                     <div>
                                         <h4 className="font-semibold text-charcoal">Horaires</h4>
-                                        <p className="text-charcoal/60">Sur rendez-vous uniquement</p>
+                                        <p className="text-charcoal/60">Lun-Sam : 9h-17h<br />Sur rendez-vous uniquement</p>
                                     </div>
                                 </div>
                             </div>

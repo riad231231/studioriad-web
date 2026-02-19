@@ -5,7 +5,7 @@ import { motion, AnimatePresence, useScroll, useTransform } from "framer-motion"
 import Image from "next/image";
 
 const heroImages = [
-    "/stills/mariage-ile-de-france-01.jpg",
+    "pb-images/animation-photo-cocktail-entreprise.jpg",
     "/stills/photographe-mariage-luxe-paris.jpg",
     "/stills/couple-shooting-eiffel.jpg",
     "/stills/mariage-maghrebin-paris.jpg",

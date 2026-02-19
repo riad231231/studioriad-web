@@ -1,2 +1,10 @@
 ErrorDocument 404 /404.html
 DirectoryIndex index.html
+
+# Redirections des anciennes pages vers la page d'accueil (301 Permanent)
+Redirect 301 /tarifs /
+Redirect 301 /tarifs/ /
+Redirect 301 /apropos /
+Redirect 301 /a-propos /
+Redirect 301 /about /
+Redirect 301 /contact /
