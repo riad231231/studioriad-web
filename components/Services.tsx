@@ -137,7 +137,7 @@ export function Services() {
                     {/* CTA Contact */}
                     <div className="bg-gray-50 px-8 py-6 rounded-full flex flex-col md:flex-row items-center gap-4 md:gap-8 shadow-sm border border-black/5">
                         <span className="text-charcoal/70 uppercase tracking-widest text-xs font-bold">
-                            Besoin d'informations complémentaires ?
+                            Besoin d&apos;informations complémentaires ?
                         </span>
                         <a
                             href="tel:+33612345678"

@@ -1,6 +1,7 @@
 "use client";
 
 import useEmblaCarousel from "embla-carousel-react";
+import type { EmblaCarouselType } from "embla-carousel";
 
 import { motion, AnimatePresence } from "framer-motion";
 import { Play, X, ChevronLeft, ChevronRight } from "lucide-react";
@@ -65,7 +66,7 @@ export function Videos() {
                     <span className="text-gold uppercase tracking-[0.2em] text-sm">Cinematography</span>
                     <h2 className="text-4xl md:text-5xl font-serif mt-4 text-charcoal">Nos Films</h2>
                     <p className="mt-4 text-charcoal/60 font-serif italic max-w-2xl mx-auto">
-                        Chaque mariage est une histoire unique. Nous capturons l'émotion, les regards et l'atmosphère pour créer un film intemporel.
+                        Chaque mariage est une histoire unique. Nous capturons l&apos;émotion, les regards et l&apos;atmosphère pour créer un film intemporel.
                     </p>
                 </motion.div>
 
@@ -173,15 +174,16 @@ function CinemaStills() {
     const scrollPrev = useCallback(() => emblaApi && emblaApi.scrollPrev(), [emblaApi]);
     const scrollNext = useCallback(() => emblaApi && emblaApi.scrollNext(), [emblaApi]);
 
-    const onSelect = useCallback((api: any) => {
+    const onSelect = useCallback((api: EmblaCarouselType) => {
         setSelectedIndex(api.selectedScrollSnap());
     }, []);
 
     useEffect(() => {
         if (!emblaApi) return;
-        onSelect(emblaApi);
+        emblaApi.on("init", onSelect);
         emblaApi.on("select", onSelect);
         return () => {
+            emblaApi.off("init", onSelect);
             emblaApi.off("select", onSelect);
         };
     }, [emblaApi, onSelect]);

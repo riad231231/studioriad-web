@@ -1,9 +1,8 @@
 "use client";
 
 import useEmblaCarousel from "embla-carousel-react";
-import { useCallback, useEffect, useState } from "react";
+import { useCallback } from "react";
 import { ChevronLeft, ChevronRight, Star } from "lucide-react";
-import { cn } from "@/lib/utils";
 import { motion } from "framer-motion";
 
 const reviews = [
@@ -47,23 +46,10 @@ const reviews = [
 
 export function Reviews() {
     const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true, align: "start" });
-    const [selectedIndex, setSelectedIndex] = useState(0);
 
     const scrollPrev = useCallback(() => emblaApi && emblaApi.scrollPrev(), [emblaApi]);
     const scrollNext = useCallback(() => emblaApi && emblaApi.scrollNext(), [emblaApi]);
 
-    const onSelect = useCallback((api: any) => {
-        setSelectedIndex(api.selectedScrollSnap());
-    }, []);
-
-    useEffect(() => {
-        if (!emblaApi) return;
-        onSelect(emblaApi);
-        emblaApi.on("select", onSelect);
-        return () => {
-            emblaApi.off("select", onSelect);
-        };
-    }, [emblaApi, onSelect]);
 
     return (
         <section className="py-24 bg-cream text-charcoal overflow-hidden">
@@ -91,7 +77,7 @@ export function Reviews() {
                                             ))}
                                         </div>
                                         <p className="text-charcoal/80 font-serif italic mb-6 leading-relaxed text-sm md:text-base">
-                                            "{review.text}"
+                                            &ldquo;{review.text}&rdquo;
                                         </p>
                                         <div className="mt-auto">
                                             <h4 className="font-medium text-charcoal uppercase tracking-widest text-xs mb-1">{review.author}</h4>
