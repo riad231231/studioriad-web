@@ -9,6 +9,88 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
     {
+        slug: "photographe-cameraman-mariage-maghrebin",
+        title: "Choisir le Meilleur Photographe et Cameraman pour un Mariage Maghrébin",
+        excerpt: "À la recherche d'un photographe et cameraman pour votre mariage maghrébin ? Découvrez pourquoi capturer les traditions, du henné à la ziana, nécessite de vrais experts.",
+        date: "03 Mars 2026",
+        coverImage: "/images for blog/0631.jpg",
+        content: `
+            <p>Un mariage maghrébin (marocain, algérien, tunisien) est un événement grandiose, riche en couleurs, en émotions et en traditions. Entre le changement de tenues par la Ziana, l'effervescence de la cérémonie du henné, l'arrivée majestueuse en Amaria et la ferveur de la Dakka Marrakchia, chaque instant est précieux.</p>
+            
+            <p>Faire appel à un <strong>photographe et cameraman pour mariage maghrébin</strong> qui connaît parfaitement ces coutumes est indispensable. Chez Studio Riad, nous anticipons chaque moment fort pour ne rater aucun sourire, aucune larme de joie et aucun détail de vos somptueuses tenues.</p>
+            
+            <img src="/images for blog/0634.jpg" alt="Photographe mariage oriental" style="max-width: 100%; border-radius: 10px; margin: 20px 0;">
+
+            <h2>La vidéo (cameraman) : Revivre l'émotion de votre mariage oriental</h2>
+            <p>Si les photos figent l'instant, la vidéo, elle, capture l'essence même de l'ambiance. Le rôle du <strong>cameraman de mariage</strong> est de réaliser un véritable film cinématographique de votre union.</p>
+            <ul>
+                <li><strong>Les sons et les musiques :</strong> Les youyous, la musique orientale, les rires de vos invités... La vidéo permet de revivre l'atmosphère sonore unique de votre mariage.</li>
+                <li><strong>Le mouvement :</strong> L'entrée des mariés, les danses traditionnelles, la grâce des robes marocaines ou algériennes en mouvement. Seul un vidéaste expérimenté saura retranscrire cette dynamique.</li>
+            </ul>
+
+            <h2>La photographie : Figer l'élégance et les traditions</h2>
+            <p>Un <strong>photographe de mariage oriental</strong> a l'œil pour sublimer chaque détail.</p>
+            <ul>
+                <li><strong>Les portraits :</strong> Des photos posées élégantes avec votre famille et vos proches.</li>
+                <li><strong>Le photo-reportage :</strong> Capturer l'émotion sur le vif, lors des préparatifs, de la mairie, ou de la fête.</li>
+                <li><strong>Les détails :</strong> Les alliances, la décoration de la salle de réception, la beauté des parures et des caftans.</li>
+            </ul>
+
+            <h2>Les avantages d'une équipe Photo & Vidéo unie (comme Studio Riad)</h2>
+            <p>Plutôt que d'engager deux prestataires distincts qui ne se connaissent pas, choisir une équipe complète (photographe + cameraman) présente d'énormes avantages :</p>
+            <ol>
+                <li><strong>Une synchronisation parfaite :</strong> L'équipe a l'habitude de travailler ensemble, garantissant qu'ils ne se gêneront pas mutuellement sur les moments clés.</li>
+                <li><strong>Un rendu homogène :</strong> Le style de l'image (couleurs, lumière) sera le même sur vos photos et votre vidéo, offrant un résultat final cohérent et professionnel.</li>
+                <li><strong>Une tranquillité d'esprit :</strong> Vous n'avez qu'un seul interlocuteur pour toute la partie "souvenirs" de votre mariage.</li>
+            </ol>
+
+            <h3>Faites confiance à Studio Riad pour immortaliser votre grand jour</h3>
+            <p>Pour votre mariage maghrébin, entourez-vous de professionnels de l'image qui comprennent vos attentes et vos traditions. L'équipe de Studio Riad vous accompagne pour créer des souvenirs impérissables, à la hauteur de votre célébration. <strong>Contactez-nous pour réserver votre photographe et cameraman !</strong></p>
+        `
+    },
+    {
+        slug: "location-borne-photo-evenement-entreprise-particulier",
+        title: "Location Photobooth : L'Animation Incontournable pour Entreprises et Particuliers",
+        excerpt: "Que ce soit pour un séminaire d'entreprise, un anniversaire, ou un gala sportif, découvrez pourquoi la location d'un photobooth ou d'une borne photo garantit le succès de votre événement.",
+        date: "03 Mars 2026",
+        coverImage: "/images for blog/photobooth.png",
+        content: `
+            <p>Vous organisez un événement et vous cherchez une idée d'animation originale qui plaira à tout le monde ? La <strong>location d'un photobooth</strong> (ou borne photo) est la solution idéale. Fini les photos posées et figées ! Le photobooth est une expérience interactive et ludique qui brise la glace et permet à vos invités de créer des souvenirs mémorables en toute autonomie.</p>
+            
+            <p>Et le meilleur ? Cette animation s'adapte à absolument toutes les occasions, des événements corporatifs aux célébrations intimes.</p>
+
+            <h2>Louer un photobooth pour vos Événements d'Entreprise (B2B)</h2>
+            <p>Pour les professionnels, la <strong>borne photo</strong> n'est pas qu'un simple divertissement, c'est un véritable outil de communication.</p>
+            <ul>
+                <li><strong>Séminaires, soirées d'entreprise et team building :</strong> Le photobooth crée de la cohésion d'équipe et offre aux collaborateurs des souvenirs mémorables entre collègues.</li>
+                <li><strong>Inaugurations, lancements de produits et salons :</strong> C'est un excellent moyen d'attirer du monde sur votre stand.</li>
+                <li><strong>L'avantage clé : La personnalisation.</strong> Chez Studio Riad, nous pouvons personnaliser le contour des photos imprimées avec le <strong>logo de votre entreprise</strong> ou les couleurs de votre marque, transformant chaque photo en un support marketing redoutable !</li>
+            </ul>
+
+            <h2>Une animation incontournable pour les Événements Privés (B2C)</h2>
+            <p>Pour les particuliers, le photobooth remplace le traditionnel livre d'or et permet de capturer les sourires de vos invités.</p>
+            <ul>
+                <li><strong>Anniversaires (18 ans, 30 ans, 50 ans...) :</strong> Avec des accessoires amusants (chapeaux, lunettes décalées...), fous rires garantis.</li>
+                <li><strong>Fêtes de famille, réceptions et cousinades :</strong> C'est l'animation parfaite pour réunir toutes les générations sur une même photo, des grands-parents aux petits-enfants.</li>
+                <li><strong>L'avantage clé : L'impression instantanée.</strong> Vos invités repartent immédiatement avec leur tirage photo en cadeau souvenir de votre événement.</li>
+            </ul>
+
+            <h2>Clubs sportifs et Associations : Dynamisez vos galas !</h2>
+            <p>Les clubs sportifs, les associations ou les BDE d'écoles organisent souvent de grands rassemblements (galas de fin d'année, tournois, remises de prix).</p>
+            <p>La <strong>location d'une box photo</strong> lors de ces événements crée une ambiance festive. Les sportifs ou les membres adorent se prendre en photo en petits groupes pour immortaliser leur saison. C'est aussi un bon moyen pour l'association de communiquer sur ses réseaux sociaux a posteriori avec des clichés fun et décalés.</p>
+
+            <h3>Les atouts majeurs du service Photobooth par Studio Riad</h3>
+            <p>Pourquoi choisir de louer votre borne photo chez nous ?</p>
+            <ul>
+                <li><strong>Qualité professionnelle :</strong> Nos photobooths sont équipés d'appareils photo de haute qualité et d'imprimantes thermiques ultra-rapides pour des impressions instantanées impeccables.</li>
+                <li><strong>Simplicité :</strong> Installation rapide et utilisation intuitive grâce à l'écran tactile.</li>
+                <li><strong>Personnalisation complète :</strong> Un design sur-mesure des impressions pour coller parfaitement à la thématique de votre événement.</li>
+            </ul>
+
+            <p>Que vous soyez un professionnel ou un particulier, Studio Riad vous accompagne pour faire de votre prochain événement une réussite totale. <strong>N'hésitez pas à nous contacter pour réserver votre borne photo !</strong></p>
+        `
+    },
+    {
         slug: "photographe-videaste-mariage-paris-duo",
         title: "Photographe et Vidéaste de Mariage à Paris : Pourquoi choisir un duo ?",
         excerpt: "Engager une équipe photo et vidéo habituée à travailler ensemble est le secret pour des souvenirs cohérents et une journée fluide. Découvrez les avantages d'un duo complice.",
