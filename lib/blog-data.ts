@@ -13,13 +13,13 @@ export const blogPosts: BlogPost[] = [
         title: "Choisir le Meilleur Photographe et Cameraman pour un Mariage Maghrébin",
         excerpt: "À la recherche d'un photographe et cameraman pour votre mariage maghrébin ? Découvrez pourquoi capturer les traditions, du henné à la ziana, nécessite de vrais experts.",
         date: "03 Mars 2026",
-        coverImage: "/images for blog/0631.jpg",
+        coverImage: "/images for blog/photographe-cameraman-mariage-maghrebin.jpg",
         content: `
             <p>Un mariage maghrébin (marocain, algérien, tunisien) est un événement grandiose, riche en couleurs, en émotions et en traditions. Entre le changement de tenues par la Ziana, l'effervescence de la cérémonie du henné, l'arrivée majestueuse en Amaria et la ferveur de la Dakka Marrakchia, chaque instant est précieux.</p>
             
             <p>Faire appel à un <strong>photographe et cameraman pour mariage maghrébin</strong> qui connaît parfaitement ces coutumes est indispensable. Chez Studio Riad, nous anticipons chaque moment fort pour ne rater aucun sourire, aucune larme de joie et aucun détail de vos somptueuses tenues.</p>
             
-            <img src="/images for blog/0634.jpg" alt="Photographe mariage oriental" style="max-width: 100%; border-radius: 10px; margin: 20px 0;">
+            <img src="/images for blog/details-mariage-oriental.jpg" alt="Photographe mariage oriental" style="max-width: 100%; border-radius: 10px; margin: 20px 0;">
 
             <h2>La vidéo (cameraman) : Revivre l'émotion de votre mariage oriental</h2>
             <p>Si les photos figent l'instant, la vidéo, elle, capture l'essence même de l'ambiance. Le rôle du <strong>cameraman de mariage</strong> est de réaliser un véritable film cinématographique de votre union.</p>
@@ -53,7 +53,7 @@ export const blogPosts: BlogPost[] = [
         title: "Location Photobooth : L'Animation Idéale pour Entreprises et Particuliers",
         excerpt: "Que ce soit pour un séminaire d'entreprise, un anniversaire, ou un gala sportif, découvrez pourquoi la location d'un photobooth ou d'une borne photo garantit le succès de votre événement.",
         date: "03 Mars 2026",
-        coverImage: "/images for blog/photobooth.png",
+        coverImage: "/images for blog/location-borne-photo-photobooth.jpg",
         content: `
             <p>Vous organisez un événement et vous cherchez une idée d'animation originale qui plaira à tout le monde ? La <strong>location d'un photobooth</strong> (ou borne photo) est la solution idéale. Fini les photos posées et figées ! Le photobooth est une expérience interactive et ludique qui brise la glace et permet à vos invités de créer des souvenirs mémorables en toute autonomie.</p>
             
