@@ -11,11 +11,11 @@ export const blogPosts: BlogPost[] = [
     {
         slug: "photographe-cameraman-mariage-maghrebin",
         title: "Choisir le Meilleur Photographe et Cameraman pour un Mariage Maghrébin",
-        excerpt: "À la recherche d'un photographe et cameraman pour votre mariage maghrébin ? Découvrez pourquoi capturer les traditions, du henné à la ziana, nécessite de vrais experts.",
+        excerpt: "À la recherche d'un photographe et cameraman pour votre mariage maghrébin ? Découvrez pourquoi capturer les traditions, du henné à la neggafa, nécessite de vrais experts.",
         date: "03 Mars 2026",
         coverImage: "/images for blog/photographe-cameraman-mariage-maghrebin.jpg",
         content: `
-            <p>Un mariage maghrébin (marocain, algérien, tunisien) est un événement grandiose, riche en couleurs, en émotions et en traditions. Entre le changement de tenues par la Ziana, l'effervescence de la cérémonie du henné, l'arrivée majestueuse en Amaria et la ferveur de la Dakka Marrakchia, chaque instant est précieux.</p>
+            <p>Un mariage maghrébin (marocain, algérien, tunisien) est un événement grandiose, riche en couleurs, en émotions et en traditions. Entre le changement de tenues par la neggafa, l'effervescence de la cérémonie du henné, l'arrivée majestueuse en Amaria et la ferveur de la Dakka Marrakchia, chaque instant est précieux.</p>
             
             <p>Faire appel à un <strong>photographe et cameraman pour mariage maghrébin</strong> qui connaît parfaitement ces coutumes est indispensable. Chez Studioriad, nous anticipons chaque moment fort pour ne rater aucun sourire, aucune larme de joie et aucun détail de vos somptueuses tenues.</p>
             

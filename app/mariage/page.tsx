@@ -58,7 +58,7 @@ export default function MariagePage() {
                             L'Expertise du Mariage Maghrébin à Paris
                         </h2>
                         <p className="text-charcoal/70 text-lg leading-relaxed max-w-3xl mx-auto">
-                            Un mariage oriental est unique. Les tenues de la Ziana, l'entrée majestueuse en Amaria, les rythmes envoûtants de la Dakka Marrakchia... En tant que <strong>photographe et vidéaste spécialisés dans le mariage maghrébin à Paris et en Île-de-France</strong>, Studioriad comprend et anticipe ces moments cruciaux pour vous offrir des souvenirs à la hauteur de votre célébration.
+                            Un mariage oriental est unique. Les tenues de la neggafa, l'entrée majestueuse en Amaria, les rythmes envoûtants de la Dakka Marrakchia... En tant que <strong>photographe et vidéaste spécialisés dans le mariage maghrébin à Paris et en Île-de-France</strong>, Studioriad comprend et anticipe ces moments cruciaux pour vous offrir des souvenirs à la hauteur de votre célébration.
                         </p>
                     </div>
 
