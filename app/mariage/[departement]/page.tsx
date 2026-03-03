@@ -65,7 +65,7 @@ export default async function DepartementMariagePage({ params }: { params: Promi
                             L'Expertise du Mariage Maghrébin en {departement.name} ({departement.number})
                         </h2>
                         <p className="text-charcoal/70 text-lg leading-relaxed max-w-3xl mx-auto">
-                            Un mariage oriental est unique. Les tenues de la Ziana, l'entrée majestueuse en Amaria, les rythmes envoûtants de la Dakka Marrakchia... En tant que <strong>photographe et vidéaste spécialisés dans le mariage maghrébin basés en région parisienne</strong>, Studio Riad se déplace partout en <strong>{departement.name}</strong> pour vous offrir des souvenirs à la hauteur de votre célébration.
+                            Un mariage oriental est unique. Les tenues de la Ziana, l'entrée majestueuse en Amaria, les rythmes envoûtants de la Dakka Marrakchia... En tant que <strong>photographe et vidéaste spécialisés dans le mariage maghrébin basés en région parisienne</strong>, Studioriad se déplace partout en <strong>{departement.name}</strong> pour vous offrir des souvenirs à la hauteur de votre célébration.
                         </p>
                     </div>
 

@@ -13,10 +13,10 @@ export async function generateMetadata({ params }: { params: Promise<{ departeme
     }
 
     return {
-        title: `Photographe Mariage Oriental ${departement.name} (${departement.number}) | Studio Riad`,
+        title: `Photographe Mariage Oriental ${departement.name} (${departement.number}) | Studioriad`,
         description: `Photographe et Cameraman spécialisés dans le mariage maghrébin (marocain, algérien, tunisien) dans le ${departement.name} (${departement.number}). Reportage photo et vidéo d'exception.`,
         openGraph: {
-            title: `Photographe Mariage Oriental ${departement.name} | Studio Riad`,
+            title: `Photographe Mariage Oriental ${departement.name} | Studioriad`,
             description: `Votre photographe et vidéaste de mariage oriental dans le ${departement.name} (${departement.number}).`,
         },
     };

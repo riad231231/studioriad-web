@@ -1,11 +1,11 @@
-# Stratégie SEO pour Studio Riad (2026)
+# Stratégie SEO pour Studioriad (2026)
 
 Voici votre plan d'action pour dominer les résultats Google sur les requêtes comme *"photographe mariage maghrébin Paris"* et *"vidéaste mariage oriental"*.
 
 ## 1. Google My Business (TOP Priorité) 📍
 C'est le levier le plus puissant pour être visible localement.
-*   **Création/Optimisation** : Créez une fiche "Studio Riad".
-*   **Titre** : Ne mettez pas juste "Studio Riad". Mettez "Studio Riad - Photographe & Vidéaste Mariage Maghrébin Paris". (Si Google l'accepte, c'est un énorme boost).
+*   **Création/Optimisation** : Créez une fiche "Studioriad".
+*   **Titre** : Ne mettez pas juste "Studioriad". Mettez "Studioriad - Photographe & Vidéaste Mariage Maghrébin Paris". (Si Google l'accepte, c'est un énorme boost).
 *   **Avis** : Demandez à TOUS vos anciens clients de laisser un avis 5 étoiles mentionnant des mots-clés ("Merci pour les photos de notre mariage algérien...", "Super cameraman...").
 *   **Photos** : Mettez à jour régulièrement votre fiche avec vos meilleures photos.
 

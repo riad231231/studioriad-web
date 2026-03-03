@@ -2,10 +2,10 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
     title: "Photographe Mariage Oriental Paris & Île-de-France (94)",
-    description: "Studio Riad : Photographe et Cameraman spécialisés dans le mariage maghrébin (marocain, algérien, tunisien) à Paris et en Île-de-France. Reportage photo et vidéo.",
+    description: "Studioriad : Photographe et Cameraman spécialisés dans le mariage maghrébin (marocain, algérien, tunisien) à Paris et en Île-de-France. Reportage photo et vidéo.",
     openGraph: {
-        title: "Photographe Mariage Oriental Paris & Île-de-France | Studio Riad",
-        description: "Studio Riad : L'Expertise du mariage maghrébin en photo et vidéo.",
+        title: "Photographe Mariage Oriental Paris & Île-de-France | Studioriad",
+        description: "Studioriad : L'Expertise du mariage maghrébin en photo et vidéo.",
     },
 };
 

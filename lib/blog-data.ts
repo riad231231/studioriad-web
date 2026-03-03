@@ -17,7 +17,7 @@ export const blogPosts: BlogPost[] = [
         content: `
             <p>Un mariage maghrébin (marocain, algérien, tunisien) est un événement grandiose, riche en couleurs, en émotions et en traditions. Entre le changement de tenues par la Ziana, l'effervescence de la cérémonie du henné, l'arrivée majestueuse en Amaria et la ferveur de la Dakka Marrakchia, chaque instant est précieux.</p>
             
-            <p>Faire appel à un <strong>photographe et cameraman pour mariage maghrébin</strong> qui connaît parfaitement ces coutumes est indispensable. Chez Studio Riad, nous anticipons chaque moment fort pour ne rater aucun sourire, aucune larme de joie et aucun détail de vos somptueuses tenues.</p>
+            <p>Faire appel à un <strong>photographe et cameraman pour mariage maghrébin</strong> qui connaît parfaitement ces coutumes est indispensable. Chez Studioriad, nous anticipons chaque moment fort pour ne rater aucun sourire, aucune larme de joie et aucun détail de vos somptueuses tenues.</p>
             
             <img src="/images for blog/details-mariage-oriental.jpg" alt="Photographe mariage oriental" style="max-width: 100%; border-radius: 10px; margin: 20px 0;">
 
@@ -36,7 +36,7 @@ export const blogPosts: BlogPost[] = [
                 <li><strong>Les détails :</strong> Les alliances, la décoration de la salle de réception, la beauté des parures et des caftans.</li>
             </ul>
 
-            <h2>Les avantages d'une équipe Photo & Vidéo unie (comme Studio Riad)</h2>
+            <h2>Les avantages d'une équipe Photo & Vidéo unie (comme Studioriad)</h2>
             <p>Plutôt que d'engager deux prestataires distincts qui ne se connaissent pas, choisir une équipe complète (photographe + cameraman) présente d'énormes avantages :</p>
             <ol>
                 <li><strong>Une synchronisation parfaite :</strong> L'équipe a l'habitude de travailler ensemble, garantissant qu'ils ne se gêneront pas mutuellement sur les moments clés.</li>
@@ -44,8 +44,8 @@ export const blogPosts: BlogPost[] = [
                 <li><strong>Une tranquillité d'esprit :</strong> Vous n'avez qu'un seul interlocuteur pour toute la partie "souvenirs" de votre mariage.</li>
             </ol>
 
-            <h3>Faites confiance à Studio Riad pour immortaliser votre grand jour</h3>
-            <p>Pour votre mariage maghrébin, entourez-vous de professionnels de l'image qui comprennent vos attentes et vos traditions. L'équipe de Studio Riad vous accompagne pour créer des souvenirs impérissables, à la hauteur de votre célébration. <strong>Contactez-nous pour réserver votre photographe et cameraman !</strong></p>
+            <h3>Faites confiance à Studioriad pour immortaliser votre grand jour</h3>
+            <p>Pour votre mariage maghrébin, entourez-vous de professionnels de l'image qui comprennent vos attentes et vos traditions. L'équipe de Studioriad vous accompagne pour créer des souvenirs impérissables, à la hauteur de votre célébration. <strong>Contactez-nous pour réserver votre photographe et cameraman !</strong></p>
         `
     },
     {
@@ -64,7 +64,7 @@ export const blogPosts: BlogPost[] = [
             <ul>
                 <li><strong>Séminaires, soirées d'entreprise et team building :</strong> Le photobooth crée de la cohésion d'équipe et offre aux collaborateurs des souvenirs mémorables entre collègues.</li>
                 <li><strong>Inaugurations, lancements de produits et salons :</strong> C'est un excellent moyen d'attirer du monde sur votre stand.</li>
-                <li><strong>L'avantage clé : La personnalisation.</strong> Chez Studio Riad, nous pouvons personnaliser le contour des photos imprimées avec le <strong>logo de votre entreprise</strong> ou les couleurs de votre marque, transformant chaque photo en un support marketing redoutable !</li>
+                <li><strong>L'avantage clé : La personnalisation.</strong> Chez Studioriad, nous pouvons personnaliser le contour des photos imprimées avec le <strong>logo de votre entreprise</strong> ou les couleurs de votre marque, transformant chaque photo en un support marketing redoutable !</li>
             </ul>
 
             <h2>Une animation incontournable pour les Événements Privés (B2C)</h2>
@@ -79,7 +79,7 @@ export const blogPosts: BlogPost[] = [
             <p>Les clubs sportifs, les associations ou les BDE d'écoles organisent souvent de grands rassemblements (galas de fin d'année, tournois, remises de prix).</p>
             <p>La <strong>location d'une box photo</strong> lors de ces événements crée une ambiance festive. Les sportifs ou les membres adorent se prendre en photo en petits groupes pour immortaliser leur saison. C'est aussi un bon moyen pour l'association de communiquer sur ses réseaux sociaux a posteriori avec des clichés fun et décalés.</p>
 
-            <h3>Les atouts majeurs du service Photobooth par Studio Riad</h3>
+            <h3>Les atouts majeurs du service Photobooth par Studioriad</h3>
             <p>Pourquoi choisir de louer votre borne photo chez nous ?</p>
             <ul>
                 <li><strong>Qualité professionnelle :</strong> Nos photobooths sont équipés d'appareils photo de haute qualité et d'imprimantes thermiques ultra-rapides pour des impressions instantanées impeccables.</li>
@@ -87,7 +87,7 @@ export const blogPosts: BlogPost[] = [
                 <li><strong>Personnalisation complète :</strong> Un design sur-mesure des impressions pour coller parfaitement à la thématique de votre événement.</li>
             </ul>
 
-            <p>Que vous soyez un professionnel ou un particulier, Studio Riad vous accompagne pour faire de votre prochain événement une réussite totale. <strong>N'hésitez pas à nous contacter pour réserver votre borne photo !</strong></p>
+            <p>Que vous soyez un professionnel ou un particulier, Studioriad vous accompagne pour faire de votre prochain événement une réussite totale. <strong>N'hésitez pas à nous contacter pour réserver votre borne photo !</strong></p>
         `
     },
     {
