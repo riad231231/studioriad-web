@@ -1,6 +1,7 @@
 "use client";
 
 // import { Navbar } from "@/components/Navbar";
+import type { Metadata } from 'next';
 import { Footer } from "@/components/Footer";
 import Image from "next/image";
 import { motion } from "framer-motion";
@@ -167,6 +168,41 @@ export default function PhotoboothPage() {
                                 <p className="text-charcoal/70 text-sm leading-relaxed">{feature.description}</p>
                             </motion.div>
                         ))}
+                    </div>
+                </div>
+            </section>
+
+            {/* SEO Text & Internal Linking Section */}
+            <section className="py-16 bg-white px-6">
+                <div className="container mx-auto max-w-4xl text-center">
+                    <h2 className="text-2xl md:text-3xl font-serif text-charcoal mb-6">L'Animation Photo Idéale pour Tous Vos Événements en Île-de-France</h2>
+                    <p className="text-charcoal/70 mb-4 leading-relaxed">
+                        Que vous organisiez un mariage magique à Paris, un séminaire d'entreprise dans le Val-de-Marne (94) ou une fête d'anniversaire mémorable, la location de notre borne photobooth est la garantie d'une ambiance réussie. Fini les photos classiques, place aux sourires espontanés et aux impressions instantanées !
+                    </p>
+                    <p className="text-charcoal/70 mb-8 leading-relaxed">
+                        Envie d'en savoir plus sur les avantages du photobooth pour vos événements ? Découvrez notre dernier article : <br />
+                        <a href="/blog/location-borne-photo-evenement-entreprise-particulier" className="text-gold hover:underline font-medium">Location Photobooth : L'Animation Idéale pour Entreprises et Particuliers</a>.
+                    </p>
+                </div>
+            </section>
+
+            {/* FAQ Section */}
+            <section className="py-16 px-6 md:px-12 bg-cream">
+                <div className="max-w-3xl mx-auto">
+                    <h2 className="font-serif text-3xl mb-10 text-center text-charcoal">Questions Fréquentes sur la Location de Photobooth</h2>
+                    <div className="space-y-4">
+                        <div className="bg-white p-6 rounded-lg shadow-sm">
+                            <h3 className="font-semibold text-charcoal mb-2 text-lg">Comment louer un photobooth pour un mariage à Paris ?</h3>
+                            <p className="text-charcoal/70">Il vous suffit de nous contacter via le formulaire ci-dessous ou par téléphone. Nous réserverons la date pour vous. Le jour J, notre équipe se charge de la livraison et de l'installation de la borne photo directement sur le lieu de votre réception à Paris ou en Île-de-France.</p>
+                        </div>
+                        <div className="bg-white p-6 rounded-lg shadow-sm">
+                            <h3 className="font-semibold text-charcoal mb-2 text-lg">Le prix inclut-il les impressions photos ?</h3>
+                            <p className="text-charcoal/70">Oui, selon le forfait choisi, vous bénéficiez de plusieurs centaines de tirages instantanés sur papier professionnel. De plus, vos invités peuvent s'envoyer les photos en version numérique par email ou QR code sans limite.</p>
+                        </div>
+                        <div className="bg-white p-6 rounded-lg shadow-sm">
+                            <h3 className="font-semibold text-charcoal mb-2 text-lg">Personnalisez-vous le contour des photos ?</h3>
+                            <p className="text-charcoal/70">Absolument ! Avant l'événement (que ce soit un anniversaire, un mariage ou un événement d'entreprise), nous créons avec vous un design sur-mesure (logo, prénoms, date, charte graphique) qui sera imprimé sur chaque tirage photo.</p>
+                        </div>
                     </div>
                 </div>
             </section>

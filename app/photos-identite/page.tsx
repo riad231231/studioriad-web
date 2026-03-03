@@ -3,11 +3,11 @@ import { Camera, Check, ShieldCheck, MapPin, Phone, Car, Baby, Clock } from 'luc
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-    title: "Photo d'identité ANTS Vitry-sur-Seine | Studioriad",
-    description: "Photos d'identité agréées ANTS à Vitry-sur-Seine. Spécialiste bébés & nouveaux-nés. Permis de conduire ePhoto, passeport, carte de séjour. Satisfait ou remboursé. Déplacement domicile.",
+    title: "Photo d'identité Vitry sur Seine | Photographe Agrée ANTS",
+    description: "Photos d'identité conformes et agréées ANTS à Vitry-sur-Seine (94). Spécialiste bébés & nouveaux-nés. ePhoto permis de conduire, passeport, CNI, titre de séjour. Sans risque.",
     openGraph: {
-        title: "Photo d'identité ANTS Vitry-sur-Seine | Studioriad",
-        description: "Photos d'identité conformes et agréées ANTS. Spécialiste bébés. Sur RDV.",
+        title: "Photo d'identité Vitry sur Seine | Photographe Agrée ANTS",
+        description: "Studio photo agréé ANTS à Vitry-sur-Seine pour vos photos d'identité officielles. Spécialiste bébés.",
         images: [{ url: '/images/logo.png' }], // Adjust if needed
     },
 };
@@ -94,14 +94,14 @@ export default function IdentityPhotoPage() {
                         <ShieldCheck className="w-4 h-4" />
                         <span className="text-sm font-medium">Agréé ANTS & Préfecture</span>
                     </div>
-                    <h1 className="font-serif text-4xl md:text-6xl text-charcoal mb-6 leading-tight">
-                        Photos d'identité <span className="text-gold italic">conformes</span> à Vitry-sur-Seine
+                    <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl text-charcoal mb-6 leading-tight">
+                        Photographe <span className="text-gold italic">Agréé ANTS</span> <br className="hidden md:block" /> pour vos Photos d'Identité <br className="hidden md:block" /> à Vitry-sur-Seine
                     </h1>
-                    <p className="text-xl text-charcoal/80 mb-8 max-w-2xl mx-auto font-light">
-                        Passeport, CNI, Permis de conduire, Carte de séjour. <br />
-                        <span className="font-semibold text-charcoal">Spécialiste bébés et nouveaux-nés.</span>
-                        <br /> Satisfait ou remboursé.
-                    </p>
+                    <h2 className="text-xl text-charcoal/80 mb-8 max-w-2xl mx-auto font-light">
+                        Passeport, CNI, ePhoto Permis de conduire et Carte de séjour. <br />
+                        <span className="font-semibold text-charcoal">Studio spécialiste bébés et nouveaux-nés.</span>
+                        <br /> 100% Conformes ou refaites gratuitement.
+                    </h2>
                     <div className="flex flex-col sm:flex-row gap-4 justify-center">
                         <a
                             href="tel:0615692839"
