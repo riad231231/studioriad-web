@@ -50,7 +50,7 @@ export const blogPosts: BlogPost[] = [
     },
     {
         slug: "location-borne-photo-evenement-entreprise-particulier",
-        title: "Location Photobooth : L'Animation Incontournable pour Entreprises et Particuliers",
+        title: "Location Photobooth : L'Animation Idéale pour Entreprises et Particuliers",
         excerpt: "Que ce soit pour un séminaire d'entreprise, un anniversaire, ou un gala sportif, découvrez pourquoi la location d'un photobooth ou d'une borne photo garantit le succès de votre événement.",
         date: "03 Mars 2026",
         coverImage: "/images for blog/photobooth.png",
