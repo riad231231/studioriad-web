@@ -15,7 +15,7 @@ const navLinks = [
     { name: "Tarifs", href: "/#services" },
     { name: "Photobooth", href: "/photobooth" },
     { name: "Journal", href: "/blog" },
-    { name: "Photos Identité", href: "/photos-identite" },
+
     { name: "Contact", href: "/#contact" },
 ];
 
