@@ -23,6 +23,31 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
 
     return (
         <main className="min-h-screen bg-cream selection:bg-gold selection:text-white">
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                    __html: JSON.stringify({
+                        "@context": "https://schema.org",
+                        "@type": "BlogPosting",
+                        "headline": post.title,
+                        "image": `https://studioriad.com${post.coverImage}`,
+                        "datePublished": post.date,
+                        "author": {
+                            "@type": "Person",
+                            "name": "Studioriad"
+                        },
+                        "publisher": {
+                            "@type": "Organization",
+                            "name": "Studioriad",
+                            "logo": {
+                                "@type": "ImageObject",
+                                "url": "https://studioriad.com/stills/photographe-videaste-mariage-paris.jpg"
+                            }
+                        },
+                        "description": post.description || post.title
+                    })
+                }}
+            />
             <Navbar />
 
             <article className="pt-32 pb-24">

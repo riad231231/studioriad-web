@@ -197,7 +197,7 @@ function CinemaStills() {
                         <div key={index} className="flex-[0_0_100%] min-w-0 relative aspect-[16/9]">
                             <Image
                                 src={src}
-                                alt={`Capture cinema ${index + 1}`}
+                                alt={src.split('/').pop()?.replace('.jpg', '').replace(/-/g, ' ') || `Capture vidéo mariage Studioriad ${index + 1}`}
                                 fill
                                 className="object-contain"
                                 quality={100}

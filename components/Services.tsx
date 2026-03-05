@@ -64,10 +64,12 @@ export function Services() {
                     viewport={{ once: true }}
                     className="text-center mb-16"
                 >
-                    <span className="text-gold uppercase tracking-[0.2em] text-sm">Services</span>
-                    <h2 className="text-4xl md:text-5xl font-serif mt-4">Tarifs Forfaits</h2>
+                    <div className="inline-block px-4 py-1 bg-gold/10 text-gold rounded-full text-[10px] uppercase tracking-[0.2em] font-bold mb-4 border border-gold/20">
+                        Planning 2026 Ouvert • Dates Limitées
+                    </div>
+                    <h2 className="text-4xl md:text-5xl font-serif mt-4 text-charcoal">Investissement & Tarifs</h2>
                     <p className="mt-4 text-charcoal/60 font-serif italic max-w-2xl mx-auto">
-                        Des collections sur mesure pour immortaliser votre histoire.
+                        Votre mariage est l'histoire d'une vie. Nous l'immortalisons avec élégance et vérité.
                     </p>
                 </motion.div>
 
@@ -128,10 +130,13 @@ export function Services() {
                     <a
                         href="/brochure-studioriad.pdf"
                         target="_blank"
-                        className="flex items-center gap-2 text-charcoal hover:text-gold transition-colors font-serif italic border-b border-charcoal/20 pb-1 hover:border-gold"
+                        className="flex items-center gap-3 bg-charcoal text-white px-8 py-4 rounded-full hover:bg-gold transition-all duration-300 shadow-xl group"
                     >
-                        <Download size={18} />
-                        Télécharger la brochure complète (PDF)
+                        <Download size={20} className="group-hover:translate-y-1 transition-transform" />
+                        <div className="text-left">
+                            <span className="block text-xs uppercase tracking-widest opacity-70">Guide Offert</span>
+                            <span className="font-serif text-lg italic">Tout savoir pour réussir son film & ses photos de mariage (PDF)</span>
+                        </div>
                     </a>
 
                     {/* CTA Contact */}

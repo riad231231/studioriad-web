@@ -110,7 +110,7 @@ export function Gallery({
                                     {/* Using regular img tag for natural aspect ratio responsiveness */}
                                     <img
                                         src={src}
-                                        alt={`Gallery image ${index + 1}`}
+                                        alt={src.split('/').pop()?.replace('.jpg', '').replace(/-/g, ' ') || `Photographie Mariage Studioriad ${index + 1}`}
                                         className="h-full w-auto object-contain max-w-none shadow-sm"
                                         draggable={false}
                                         loading="lazy"

@@ -3,6 +3,8 @@ import { Cormorant_Garamond, Inter } from "next/font/google";
 import "./globals.css";
 import { SmoothScroll } from "@/components/SmoothScroll";
 import { Navbar } from "@/components/Navbar";
+import { WhatsAppButton } from "@/components/WhatsAppButton";
+import { SocialProof } from "@/components/SocialProof";
 
 const cormorant = Cormorant_Garamond({
   variable: "--font-cormorant",
@@ -27,6 +29,28 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "./",
   },
+  openGraph: {
+    title: "Studioriad | Photographe & Vidéaste Mariage Paris",
+    description: "Capturer vos souvenirs avec une approche artistique, spontanée et cinématographique.",
+    url: "https://studioriad.com",
+    siteName: "Studioriad",
+    images: [
+      {
+        url: "/stills/photographe-videaste-mariage-paris.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Studioriad - Photographe & Vidéaste Mariage Paris",
+      },
+    ],
+    locale: "fr_FR",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Studioriad | Photographe & Vidéaste Mariage Paris",
+    description: "Capturer vos souvenirs avec une approche artistique, spontanée et cinématographique.",
+    images: ["/stills/photographe-videaste-mariage-paris.jpg"],
+  },
 };
 
 export default function RootLayout({
@@ -42,6 +66,8 @@ export default function RootLayout({
       >
         <Navbar />
         <SmoothScroll>{children}</SmoothScroll>
+        <WhatsAppButton />
+        <SocialProof />
       </body>
     </html>
   );

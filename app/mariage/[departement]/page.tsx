@@ -11,6 +11,22 @@ export async function generateStaticParams() {
     }));
 }
 
+export async function generateMetadata({ params }: { params: Promise<{ departement: string }> }) {
+    const { departement: departementSlug } = await params;
+    const departement = departementsIDF.find(d => d.slug === departementSlug);
+
+    if (!departement) {
+        return {
+            title: "Photographe Mariage Île-de-France | Studioriad",
+        };
+    }
+
+    return {
+        title: `Photographe & Cameraman Mariage Oriental ${departement.name} (${departement.number}) | Studioriad`,
+        description: `Immortalisez votre mariage maghrébin en ${departement.name}. Équipe experte photographe et vidéaste pour des souvenirs uniques à ${departement.number}.`,
+    };
+}
+
 export default async function DepartementMariagePage({ params }: { params: Promise<{ departement: string }> }) {
     const { departement: departementSlug } = await params;
     const departement = departementsIDF.find(d => d.slug === departementSlug);

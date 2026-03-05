@@ -5,6 +5,9 @@ export interface BlogPost {
     content: string;
     date: string;
     coverImage: string;
+    category: string;
+    description?: string;
+    readingTime?: string;
 }
 
 export const blogPosts: BlogPost[] = [
@@ -14,6 +17,8 @@ export const blogPosts: BlogPost[] = [
         excerpt: "À la recherche d'un photographe et cameraman pour votre mariage maghrébin ? Découvrez pourquoi capturer les traditions, du henné à la neggafa, nécessite de vrais experts.",
         date: "03 Mars 2026",
         coverImage: "/images for blog/photographe-cameraman-mariage-maghrebin.jpg",
+        category: "Mariage Oriental",
+        readingTime: "3 min",
         content: `
             <p>Un mariage maghrébin (marocain, algérien, tunisien) est un événement grandiose, riche en couleurs, en émotions et en traditions. Entre le changement de tenues par la neggafa, l'effervescence de la cérémonie du henné, l'arrivée majestueuse en Amaria et la ferveur de la Dakka Marrakchia, chaque instant est précieux.</p>
             
@@ -54,6 +59,8 @@ export const blogPosts: BlogPost[] = [
         excerpt: "Que ce soit pour un séminaire d'entreprise, un anniversaire, ou un gala sportif, découvrez pourquoi la location d'un photobooth ou d'une borne photo garantit le succès de votre événement.",
         date: "03 Mars 2026",
         coverImage: "/images for blog/location-borne-photo-photobooth.jpg",
+        category: "Photobooth",
+        readingTime: "4 min",
         content: `
             <p>Vous organisez un événement et vous cherchez une idée d'animation originale qui plaira à tout le monde ? La <strong>location d'un photobooth</strong> (ou borne photo) est la solution idéale. Fini les photos posées et figées ! Le photobooth est une expérience interactive et ludique qui brise la glace et permet à vos invités de créer des souvenirs mémorables en toute autonomie.</p>
             
@@ -96,6 +103,8 @@ export const blogPosts: BlogPost[] = [
         excerpt: "Engager une équipe photo et vidéo habituée à travailler ensemble est le secret pour des souvenirs cohérents et une journée fluide. Découvrez les avantages d'un duo complice.",
         date: "25 Mai 2025",
         coverImage: "/stills/photographe-videaste-mariage-paris.jpg",
+        category: "Conseils",
+        readingTime: "3 min",
         content: `
             <p>Lorsque vous organisez votre <strong>mariage à Paris</strong> ou en Île-de-France, le choix des prestataires est crucial. L'une des questions qui revient souvent est : faut-il engager un photographe et un vidéaste séparément, ou choisir une équipe "duo" ?</p>
             <p>Chez <strong>Studioriad</strong>, nous croyons fermement que la synergie entre la photo et la vidéo est la clé pour capturer l'essence de votre journée avec authenticité et élégance.</p>
@@ -119,6 +128,8 @@ export const blogPosts: BlogPost[] = [
         excerpt: "Châteaux historiques, domaines de charme et palaces parisiens... Guide ultime des lieux les plus photogéniques pour se marier près de Paris.",
         date: "14 Avril 2025",
         coverImage: "/stills/reception-mariage-ile-de-france.jpg",
+        category: "Inspirations",
+        readingTime: "4 min",
         content: `
             <p>Le choix du lieu de réception donne le ton de votre mariage. Pour un <strong>photographe de mariage à Paris</strong>, la lumière et le décor sont des terrains de jeu essentiels. Voici ma sélection des lieux les plus visuels en Île-de-France pour 2025.</p>
 
@@ -132,7 +143,7 @@ export const blogPosts: BlogPost[] = [
             <p>À seulement 20km de Paris, ce château du XIXe siècle offre une façade blanche immaculée qui reflète magnifiquement la lumière. Idéal pour des photos lumineuses et épurées.</p>
 
             <h2>4. Les Palaces Parisiens (Ritz, Shangri-La)</h2>
-            <p>Pour un mariage urbain et sophistiqué, rien ne vaut les salons historiques des grands hôtels parisiens. La vue sur la Tour Eiffel depuis le Shangri-La est un "must" pour tout <strong>vidéaste de mariage à Paris</strong>.</p>
+            <p>Pour un mariage urbain et sophistiqué, rien ne vaut les salons historiques des grands hôtels parisiens. La lumière et l'architecture y sont sublimes pour tout type de prestation.</p>
             
             <h3>Conseil de Pro</h3>
             <p>Lors de votre visite, faites attention à l'exposition du lieu. Où se couche le soleil ? Y a-t-il des zones d'ombre pour les photos de groupe s'il fait très chaud ? N'hésitez pas à demander l'avis de votre photographe avant de valider votre coup de cœur.</p>
@@ -144,6 +155,8 @@ export const blogPosts: BlogPost[] = [
         excerpt: "Ne laissez pas le stress gâcher vos photos ! Voici comment organiser votre timeline pour profiter de la meilleure lumière et rester zen.",
         date: "02 Mars 2025",
         coverImage: "/stills/photographe-mariage-luxe-paris.jpg",
+        category: "Conseils",
+        readingTime: "3 min",
         content: `
             <p>Le secret des photos de mariage spontanées et naturelles ? Ce n'est pas (que) le talent du photographe, c'est le <strong>temps</strong>. Un planning trop serré crée du stress, et le stress se voit sur les visages. Voici comment structurer votre journée.</p>
 
@@ -166,6 +179,8 @@ export const blogPosts: BlogPost[] = [
         excerpt: "Mariage Marocain, Algérien ou Tunisien à Paris ? Découvrez comment choisir le prestataire idéal qui saura sublimer vos traditions avec une touche moderne et cinématographique.",
         date: "14 Février 2026",
         coverImage: "/stills/mariage-maghrebin-paris.jpg",
+        category: "Mariage Oriental",
+        readingTime: "4 min",
         content: `
             <p>Le <strong>mariage maghrébin</strong> est bien plus qu'une simple union : c'est une célébration riche en couleurs, en émotions et en rituels séculaires. Que vous organisiez un mariage marocain, algérien ou tunisien à <strong>Paris</strong> ou en Île-de-France, le choix de votre équipe photo et vidéo est déterminant pour immortaliser ces instants précieux.</p>
 
@@ -183,51 +198,6 @@ export const blogPosts: BlogPost[] = [
 
             <h3>Conclusion</h3>
             <p>Votre mariage est unique. Il mérite des souvenirs à la hauteur de l'événement. En choisissant des professionnels spécialisés dans le <strong>mariage maghrébin à Paris</strong>, vous vous assurez que chaque tradition, chaque sourire et chaque détail sera sublimé pour l'éternité.</p>
-        `
-    },
-    {
-        slug: "photo-identite-bebe-vitry-conforme",
-        title: "Photo d'identité Bébé à Vitry-sur-Seine : Pourquoi éviter le Photomaton ?",
-        excerpt: "Réussir une photo d'identité pour un nourrisson est un défi. Découvrez pourquoi le studio est la seule garantie de conformité ANTS face aux photomatons.",
-        date: "16 Février 2026",
-        coverImage: "/pb-images/photo-identite-bebe-vitry-conforme.jpg",
-        content: `
-            <p>Tous les jeunes parents connaissent ce moment de stress : la mairie demande une <strong>photo d'identité conforme</strong> pour le passeport ou la carte d'identité de bébé. Premier réflexe ? Le photomaton du coin. Résultat : des pleurs, de l'argent perdu, et souvent un refus au guichet.</p>
-            <p>À <strong>Vitry-sur-Seine</strong>, Studioriad vous propose une alternative sereine et garantie à 100%.</p>
-
-            <h2>Pourquoi le Photomaton est inadapté aux bébés ?</h2>
-            <img src="/pb-images/photo-identite-bebe-vitry-studio.jpg" alt="Photographe bébé Vitry" style="max-width: 100%; border-radius: 10px; margin: 20px 0;">
-            <p>Les cabines automatiques sont conçues pour des adultes assis, immobiles. Pour un nouveau-né ou un bébé qui ne tient pas sa tête, c'est mission impossible :</p>
-            <ul>
-                <li><strong>L'éclairage est brutal :</strong> Le flash direct fait souvent fermer les yeux au bébé (or, les yeux doivent être ouverts !).</li>
-                <li><strong>Le cadrage est fixe :</strong> Impossible d'ajuster l'objectif à la hauteur d'un nourrisson dans un cosi.</li>
-                <li><strong>Aucune patience :</strong> La machine ne vous attendra pas si bébé a besoin d'être rassuré ou replacé.</li>
-            </ul>
-
-            <h2>Les 3 Règles d'Or de la conformité ANTS</h2>
-            <img src="/pb-images/photo-identite-bebe-vitry-normes.webp" alt="Normes photo identité bébé ANTS" style="max-width: 100%; border-radius: 10px; margin: 20px 0;">
-            <p>Pour être acceptée par l'administration française, la photo de votre enfant doit respecter des critères stricts (norme ISO/IEC 19794-5) :</p>
-            <ol>
-                <li><strong>Visage dégagé :</strong> Pas de tétine, pas de bonnet, pas de cheveux sur les yeux, et surtout... pas de mains (ni les siennes, ni celles des parents qui le tiennent !).</li>
-                <li><strong>Expression neutre :</strong> Bouche fermée, regard droit vers l'objectif. C'est le plus difficile à obtenir sans un photographe professionnel.</li>
-                <li><strong>Fond uni et clair :</strong> Mais pas blanc (interdit). Nous utilisons un fond gris clair homologué.</li>
-            </ol>
-
-            <h2>La Méthode Studioriad : Douceur et Expertise</h2>
-            <p>En tant que <strong>photographe professionnel à Vitry-sur-Seine</strong>, j'ai l'habitude des tout-petits. Voici comment se déroule une séance :</p>
-            <ul>
-                <li><strong>Temps illimité (ou presque) :</strong> On prend le temps qu'il faut. Si bébé pleure, on fait une pause câlin.</li>
-                <li><strong>Matériel adapté :</strong> J'utilise un éclairage de studio doux qui ne brusque pas l'enfant, et je shoote à sa hauteur, souvent allongé pour les nourrissons.</li>
-                <li><strong>Garantie "Satisfait ou Remboursé" :</strong> Si jamais la photo est refusée en mairie (ce qui n'arrive jamais), je la refais gratuitement.</li>
-            </ul>
-
-            <h2>Prendre Rendez-vous à Vitry</h2>
-            <p>Ne jouez pas à la loterie avec les documents officiels de vos enfants. Pour 15€, repartez avec votre planche de photos découpées, conformes et jolies (car oui, c'est possible !).</p>
-            <p>Le studio est situé à Vitry-sur-Seine, accessible facilement depuis <strong>Ivry-sur-Seine, Choisy-le-Roi et Villejuif</strong>.</p>
-            
-            <div style="margin-top: 30px; text-align: center;">
-                <a href="/photos-identite" style="background-color: #D4AF37; color: white; padding: 15px 30px; text-decoration: none; border-radius: 50px; font-weight: bold;">Voir les tarifs et réserver</a>
-            </div>
         `
     }
 ];
