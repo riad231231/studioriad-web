@@ -42,7 +42,7 @@ export function Hero() {
                             alt="Studioriad Wedding Photography"
                             fill
                             className="object-cover"
-                            priority
+                            priority={currentImage === 0}
                         />
                     </motion.div>
                 </AnimatePresence>

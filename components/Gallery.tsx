@@ -113,6 +113,7 @@ export function Gallery({
                                         alt={`Gallery image ${index + 1}`}
                                         className="h-full w-auto object-contain max-w-none shadow-sm"
                                         draggable={false}
+                                        loading="lazy"
                                     />
                                     <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors duration-300" />
                                     <div className="absolute bottom-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-white flex items-center gap-2 text-xs uppercase tracking-wider backdrop-blur-sm bg-black/20 px-3 py-1 rounded-full">

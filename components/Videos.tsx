@@ -89,6 +89,7 @@ export function Videos() {
                                     alt={video.title}
                                     fill
                                     className="object-cover transition-transform duration-700 group-hover:scale-105"
+                                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
                                 />
                                 <div className="absolute inset-0 bg-black/10 group-hover:bg-black/20 transition-colors duration-500" />
 
@@ -201,6 +202,8 @@ function CinemaStills() {
                                 className="object-contain"
                                 quality={100}
                                 draggable={false}
+                                priority={index === 0}
+                                sizes="(max-width: 1200px) 100vw, 1200px"
                             />
                         </div>
                     ))}
