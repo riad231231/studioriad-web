@@ -25,6 +25,7 @@ export function Navbar() {
     const { scrollY } = useScroll();
     const lenis = useLenis();
     const pathname = usePathname();
+    const hasDarkHero = pathname === "/" || pathname?.startsWith("/mariage") || pathname === "/photobooth";
 
     useMotionValueEvent(scrollY, "change", (latest) => {
         if (latest > 50) {
@@ -74,7 +75,7 @@ export function Navbar() {
                     }}
                     className={cn(
                         "text-2xl md:text-3xl font-serif tracking-widest uppercase hover:text-gold transition-colors relative z-50",
-                        scrolled || mobileMenuOpen || pathname !== "/" ? "text-charcoal" : "text-white"
+                        scrolled || mobileMenuOpen || !hasDarkHero ? "text-charcoal" : "text-white"
                     )}
                 >
                     Studioriad
@@ -89,7 +90,7 @@ export function Navbar() {
                             onClick={(e) => handleLinkClick(e, link.href)}
                             className={cn(
                                 "text-sm uppercase tracking-widest hover:text-gold transition-colors font-medium",
-                                scrolled || pathname !== "/" ? "text-charcoal/80" : "text-white/90"
+                                scrolled || !hasDarkHero ? "text-charcoal/80" : "text-white/90"
                             )}
                         >
                             {link.name}
@@ -101,7 +102,7 @@ export function Navbar() {
                 <div className="md:hidden relative z-50">
                     <button
                         onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-                        className={cn("hover:text-gold transition-colors", scrolled || mobileMenuOpen || pathname !== "/" ? "text-charcoal" : "text-white")}
+                        className={cn("hover:text-gold transition-colors", scrolled || mobileMenuOpen || !hasDarkHero ? "text-charcoal" : "text-white")}
                     >
                         <span className="sr-only">Menu</span>
                         {mobileMenuOpen ? (
