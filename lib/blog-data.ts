@@ -30,7 +30,7 @@ export const blogPosts: BlogPost[] = [
             <p>Si les photos figent l'instant, le film, lui, capture l'essence même de l'ambiance. Le rôle de notre <strong>cinéaste de mariage</strong> est de réaliser une véritable œuvre cinématographique.</p>
             <ul>
                 <li><strong>L'immersion sonore :</strong> Les youyous, la musique orientale, l'émotion partagée... Nos films capturent l'âme sonore de votre mariage.</li>
-                <li><strong>Le mouvement :</strong> L'entrée des mariés, les danses traditionnelles, la grâce des robes marocaines ou algériennes en mouvement. Seul un vidéaste expérimenté saura retranscrire cette dynamique.</li>
+                <li><strong>Le mouvement :</strong> L'entrée des mariés, les danses traditionnelles, la grâce des robes maghrébines en mouvement. Seul un cinéaste de prestige saura retranscrire cette dynamique.</li>
             </ul>
 
             <h2>La photographie : Figer l'élégance et les traditions</h2>
