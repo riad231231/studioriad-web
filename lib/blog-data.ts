@@ -29,12 +29,12 @@ export const blogPosts: BlogPost[] = [
             <h2>Le Cinéma (Film de mariage) : Revivre l'émotion de votre mariage oriental</h2>
             <p>Si les photos figent l'instant, le film, lui, capture l'essence même de l'ambiance. Le rôle de notre <strong>cinéaste de mariage</strong> est de réaliser une véritable œuvre cinématographique.</p>
             <ul>
-                <li><strong>Les sons et les musiques :</strong> Les youyous, la musique orientale, les rires de vos invités... La vidéo permet de revivre l'atmosphère sonore unique de votre mariage.</li>
+                <li><strong>L'immersion sonore :</strong> Les youyous, la musique orientale, l'émotion partagée... Nos films capturent l'âme sonore de votre mariage.</li>
                 <li><strong>Le mouvement :</strong> L'entrée des mariés, les danses traditionnelles, la grâce des robes marocaines ou algériennes en mouvement. Seul un vidéaste expérimenté saura retranscrire cette dynamique.</li>
             </ul>
 
             <h2>La photographie : Figer l'élégance et les traditions</h2>
-            <p>Un <strong>photographe de mariage oriental</strong> a l'œil pour sublimer chaque détail.</p>
+            <p>Un <strong>photographe de mariage de prestige</strong> a l'œil pour sublimer chaque détail.</p>
             <ul>
                 <li><strong>Les portraits :</strong> Des photos posées élégantes avec votre famille et vos proches.</li>
                 <li><strong>Le photo-reportage :</strong> Capturer l'émotion sur le vif, lors des préparatifs, de la mairie, ou de la fête.</li>
