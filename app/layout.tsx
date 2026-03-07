@@ -24,7 +24,10 @@ export const metadata: Metadata = {
   title: "Studioriad | Photographe & Vidéaste Mariage Paris & Île-de-France",
   description: "Duo créatif photo et vidéo de mariage à Paris et en Île-de-France. Capturer vos souvenirs avec une approche artistique, spontanée et cinématographique.",
   verification: {
-    google: "Pi6ympVQdiabD-ORgcertQN4VQacV7NPmKnNtHXNU7c",
+    google: [
+      "Pi6ympVQdiabD-ORgcertQN4VQacV7NPmKnNtHXNU7c",
+      "D6rGlF_Wweuy7UD06ZhiyLr8X_ADGJwKdgzUz3QuVEo"
+    ],
   },
   alternates: {
     canonical: "./",

@@ -1,0 +1,69 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Studioriad//Organic Growth Roadmap//FR
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:studioriad_session_1
+DTSTAMP:20260306T000000Z
+DTSTART:20260310T100000
+DURATION:PT1H
+SUMMARY:Studioriad SEO: Session 1 - FAQ Mariage
+DESCRIPTION:Prompt: Antigrav, exécute la Session 1 : Implante la FAQ Mariage stratégique.
+END:VEVENT
+BEGIN:VEVENT
+UID:studioriad_session_2
+DTSTAMP:20260306T000000Z
+DTSTART:20260312T100000
+DURATION:PT1H
+SUMMARY:Studioriad SEO: Session 2 - Duo Premium
+DESCRIPTION:Prompt: Antigrav, exécute la Session 2 : Optimise l'argumentaire Duo Premium.
+END:VEVENT
+BEGIN:VEVENT
+UID:studioriad_session_3
+DTSTAMP:20260306T000000Z
+DTSTART:20260317T100000
+DURATION:PT1H
+SUMMARY:Studioriad SEO: Session 3 - Mariage Civil
+DESCRIPTION:Prompt: Antigrav, exécute la Session 3 : Crée la section Mariage Civil Paris.
+END:VEVENT
+BEGIN:VEVENT
+UID:studioriad_session_4
+DTSTAMP:20260306T000000Z
+DTSTART:20260319T100000
+DURATION:PT1H
+SUMMARY:Studioriad SEO: Session 4 - Lieux Prestige
+DESCRIPTION:Prompt: Antigrav, exécute la Session 4 : Maillage des Lieux de Prestige IDF.
+END:VEVENT
+BEGIN:VEVENT
+UID:studioriad_session_5
+DTSTAMP:20260306T000000Z
+DTSTART:20260324T100000
+DURATION:PT1H
+SUMMARY:Studioriad SEO: Session 5 - Traditions/Oriental
+DESCRIPTION:Prompt: Antigrav, exécute la Session 5 : Optimisation Traditions & Mariage Oriental.
+END:VEVENT
+BEGIN:VEVENT
+UID:studioriad_session_6
+DTSTAMP:20260306T000000Z
+DTSTART:20260326T100000
+DURATION:PT1H
+SUMMARY:Studioriad SEO: Session 6 - Cas Clients
+DESCRIPTION:Prompt: Antigrav, exécute la Session 6 : Intègre les Cas Clients détaillés.
+END:VEVENT
+BEGIN:VEVENT
+UID:studioriad_session_7
+DTSTAMP:20260306T000000Z
+DTSTART:20260331T100000
+DURATION:PT1H
+SUMMARY:Studioriad SEO: Session 7 - Journal SEMrush
+DESCRIPTION:Prompt: Antigrav, exécute la Session 7 : Optimisation Sémantique du Journal.
+END:VEVENT
+BEGIN:VEVENT
+UID:studioriad_session_8
+DTSTAMP:20260306T000000Z
+DTSTART:20260402T100000
+DURATION:PT1H
+SUMMARY:Studioriad SEO: Session 8 - Audit Congruence
+DESCRIPTION:Prompt: Antigrav, exécute la Session 8 : Audit Congruence Finale.
+END:VEVENT
+END:VCALENDAR

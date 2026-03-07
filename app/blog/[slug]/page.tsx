@@ -5,12 +5,34 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ChevronLeft } from "lucide-react";
+import type { Metadata } from 'next';
 
 // For static export to work with dynamic routes, we need to generate params at build time
 export async function generateStaticParams() {
     return blogPosts.map((post) => ({
         slug: post.slug,
     }));
+}
+
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
+    const { slug } = await params;
+    const post = blogPosts.find((p) => p.slug === slug);
+
+    if (!post) {
+        return {
+            title: "Article non trouvé | Studioriad",
+        };
+    }
+
+    return {
+        title: `${post.title} | Studioriad`,
+        description: post.description || post.excerpt,
+        openGraph: {
+            title: post.title,
+            description: post.description || post.excerpt,
+            images: [post.coverImage],
+        },
+    };
 }
 
 export default async function BlogPostPage({ params }: { params: Promise<{ slug: string }> }) {

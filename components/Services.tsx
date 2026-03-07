@@ -145,7 +145,7 @@ export function Services() {
                             Besoin d&apos;informations complémentaires ?
                         </span>
                         <a
-                            href="tel:+33612345678"
+                            href="tel:+33615692839"
                             className="flex items-center gap-2 text-xl font-serif text-charcoal hover:text-gold transition-colors"
                         >
                             <Phone size={20} className="text-gold" />
