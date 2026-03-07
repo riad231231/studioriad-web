@@ -28,7 +28,7 @@ const services = [
             "Livre photos format 20x20cm",
             "Film de mariage Full HD 1080 (20mn)",
             "Livraison sur support numérique",
-            "1 Photographe / Cameraman",
+            "1 Photographe & 1 Vidéaste de Prestige",
             "Galerie web privée",
             "(Adapté pour événements < 80 pers.)"
         ],
@@ -36,14 +36,14 @@ const services = [
     },
     {
         emoji: "💍",
-        title: "Premium",
+        title: "Prestige Cinématique",
         price: "2390€*",
         subtitle: "À Partir De",
         features: [
             "Livre photo Prestige 30x30cm",
             "Moyen Métrage Full HD (45mn, Qualité Cinéma)",
             "Livraison sur support numérique",
-            "1 Photographe / Cameraman",
+            "1 Photographe & 1 Vidéaste de Prestige",
             "Prise de vue aérienne (Drone)",
             "Galerie en ligne",
             "Livraison en 5 jours"
@@ -67,9 +67,9 @@ export function Services() {
                     <div className="inline-block px-4 py-1 bg-gold/10 text-gold rounded-full text-[10px] uppercase tracking-[0.2em] font-bold mb-4 border border-gold/20">
                         Planning 2026 Ouvert • Dates Limitées
                     </div>
-                    <h2 className="text-4xl md:text-5xl font-serif mt-4 text-charcoal">Investissement & Tarifs</h2>
+                    <h2 className="text-4xl md:text-5xl font-serif mt-4 text-charcoal">Investissement & Tarifs Prestige</h2>
                     <p className="mt-4 text-charcoal/60 font-serif italic max-w-2xl mx-auto">
-                        Votre mariage est l'histoire d'une vie. Nous l'immortalisons avec élégance et vérité.
+                        Votre mariage est l&apos;histoire d&apos;une vie. Nous l&apos;immortalisons avec élégance et une vision cinématographique.
                     </p>
                 </motion.div>
 
@@ -132,10 +132,9 @@ export function Services() {
                         target="_blank"
                         className="flex items-center gap-3 bg-charcoal text-white px-8 py-4 rounded-full hover:bg-gold transition-all duration-300 shadow-xl group"
                     >
-                        <Download size={20} className="group-hover:translate-y-1 transition-transform" />
-                        <div className="text-left">
-                            <span className="block text-xs uppercase tracking-widest opacity-70">Guide Offert</span>
-                            <span className="font-serif text-lg italic">Tout savoir pour réussir son film & ses photos de mariage (PDF)</span>
+                        <div className="text-left font-serif">
+                            <span className="block text-xs uppercase tracking-widest opacity-70">Catalogue 2026</span>
+                            <span className="text-lg italic font-serif">Découvrir notre collection de Prestige (PDF)</span>
                         </div>
                     </a>
 

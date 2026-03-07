@@ -13,11 +13,11 @@ export async function generateMetadata({ params }: { params: Promise<{ departeme
     }
 
     return {
-        title: `Photographe Mariage Oriental ${departement.name} (${departement.number}) | Studioriad`,
-        description: `Photographe et Cameraman spécialisés dans le mariage maghrébin (marocain, algérien, tunisien) dans le ${departement.name} (${departement.number}). Reportage photo et vidéo d'exception.`,
+        title: `Photographe & Cinéaste Mariage Oriental ${departement.name} (${departement.number}) | Studioriad`,
+        description: `Photographe et Cinéaste de prestige spécialisés dans le mariage maghrébin (marocain, algérien, tunisien) dans le ${departement.name} (${departement.number}). Reportage photo et cinéma d'exception.`,
         openGraph: {
-            title: `Photographe Mariage Oriental ${departement.name} | Studioriad`,
-            description: `Votre photographe et vidéaste de mariage oriental dans le ${departement.name} (${departement.number}).`,
+            title: `Photographe & Cinéaste Mariage Oriental ${departement.name} | Studioriad`,
+            description: `Votre photographe et cinéaste de mariage oriental de prestige dans le ${departement.name} (${departement.number}).`,
         },
     };
 }

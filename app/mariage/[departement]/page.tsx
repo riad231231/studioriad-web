@@ -22,8 +22,8 @@ export async function generateMetadata({ params }: { params: Promise<{ departeme
     }
 
     return {
-        title: `Photographe & Cameraman Mariage Oriental ${departement.name} (${departement.number}) | Studioriad`,
-        description: `Immortalisez votre mariage maghrébin en ${departement.name}. Équipe experte photographe et vidéaste pour des souvenirs uniques à ${departement.number}.`,
+        title: `Photographe & Cinéaste Mariage Oriental ${departement.name} (${departement.number}) | Studioriad`,
+        description: `Immortalisez votre mariage maghrébin en ${departement.name} avec excellence. Photographie d&apos;art et film cinématographique à ${departement.number}.`,
     };
 }
 
@@ -58,10 +58,10 @@ export default async function DepartementMariagePage({ params }: { params: Promi
                             {departement.name} ({departement.number}) & {departement.region}
                         </span>
                         <h1 className="text-4xl md:text-6xl lg:text-7xl font-serif text-white mb-6 leading-tight shadow-sm">
-                            Photographe & Cameraman <br className="hidden md:block" /> Mariage Oriental
+                            Photographe & Cinéaste <br className="hidden md:block" /> Mariage Oriental
                         </h1>
                         <p className="text-white/90 text-lg md:text-xl max-w-2xl mx-auto font-light leading-relaxed mb-8">
-                            De la cérémonie du henné à l'ambiance de la salle, nous immortalisons chaque tradition de votre mariage maghrébin dans le {departement.name}.
+                            De la narration cinématographique à la photographie d&apos;art, nous immortalisons l&apos;élégance de votre mariage maghrébin dans le {departement.name}.
                         </p>
                         <a
                             href="/#contact"
@@ -101,7 +101,7 @@ export default async function DepartementMariagePage({ params }: { params: Promi
                             </div>
                             <h3 className="text-xl font-serif text-charcoal mb-3">Film Cinématographique</h3>
                             <p className="text-charcoal/70 text-sm leading-relaxed">
-                                Notre cameraman de mariage réalise un film immersif qui retranscrit l'ambiance, les musiques et l'énergie de votre soirée.
+                                Notre cinéaste de mariage réalise une œuvre immersive qui retranscrit l&apos;élégance et l&apos;émotion de votre soirée.
                             </p>
                         </div>
                         <div className="text-center group">

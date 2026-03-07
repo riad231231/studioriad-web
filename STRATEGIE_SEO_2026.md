@@ -1,17 +1,17 @@
 # Stratégie SEO pour Studioriad (2026)
 
-Voici votre plan d'action pour dominer les résultats Google sur les requêtes comme *"photographe mariage maghrébin Paris"* et *"vidéaste mariage oriental"*.
+Voici votre plan d'action pour dominer les résultats Google sur les requêtes comme *"photographe mariage maghrébin Paris"* et *"cinéaste de mariage oriental"*.
 
 ## 1. Google My Business (TOP Priorité) 📍
 C'est le levier le plus puissant pour être visible localement.
 *   **Création/Optimisation** : Créez une fiche "Studioriad".
-*   **Titre** : Ne mettez pas juste "Studioriad". Mettez "Studioriad - Photographe & Vidéaste Mariage Maghrébin Paris". (Si Google l'accepte, c'est un énorme boost).
+*   **Titre** : Ne mettez pas juste "Studioriad". Mettez "Studioriad - Photographe & Cinéaste Mariage Oriental Paris".
 *   **Avis** : Demandez à TOUS vos anciens clients de laisser un avis 5 étoiles mentionnant des mots-clés ("Merci pour les photos de notre mariage algérien...", "Super cameraman...").
 *   **Photos** : Mettez à jour régulièrement votre fiche avec vos meilleures photos.
 
 ## 2. Contenu & Blog (Le Roi du SEO) 👑
 Google et ChatGPT adorent le contenu frais et pertinent.
-*   **L'article que j'ai créé** : J'ai déjà publié un article optimisé sur "Photographe & Vidéaste Mariage Maghrébin à Paris". Il contient tous les mots-clés stratégiques.
+*   **L'article de référence** : J'ai publié un article optimisé sur "Choisir son Cinéaste pour un Mariage Oriental de Prestige".
 *   **Prochains articles à écrire** :
     *   "Les tops salles de réception pour un mariage oriental en Île-de-France"
     *   "Pourquoi engager un drone pour votre mariage marocain ?"

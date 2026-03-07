@@ -2,12 +2,12 @@ export function Footer() {
     return (
         <footer className="bg-charcoal text-cream py-20" id="contact">
             <div className="container mx-auto px-6 text-center">
-                <h2 className="text-4xl md:text-5xl font-serif mb-8 tracking-wide">Studioriad</h2>
-                <p className="font-serif italic text-xl mb-4 text-gold">
-                    Videaste & photographe de mariage à Paris et région parisienne - Ile de France.
+                <h2 className="text-4xl md:text-5xl font-serif mb-8 tracking-wide text-white">STUDIORIAD</h2>
+                <p className="font-serif italic text-xl mb-4 text-gold/90">
+                    Photographe & Cinéaste de Mariage | Prestige & Cinéma
                 </p>
-                <p className="font-serif italic text-base mb-8 text-gold/60">
-                    75000 - 94000 - 93000 - 92000 - 77000 - 78000 - 95000 - 60000
+                <p className="font-serif italic text-base mb-8 text-gold/40">
+                    Savoir-faire et Émotion | Paris — Île-de-France — International
                 </p>
                 <p className="text-xs text-cream/20 font-sans max-w-2xl mx-auto mb-12">
                     Studioriad est votre photographe à Vitry-sur-Seine. Retrouvez aussi votre vidéaste mariage sur Mariage.net.

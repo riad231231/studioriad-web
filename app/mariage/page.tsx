@@ -35,10 +35,10 @@ export default function MariagePage() {
                             Paris & Île-de-France (94)
                         </span>
                         <h1 className="text-4xl md:text-6xl lg:text-7xl font-serif text-white mb-6 leading-tight shadow-sm">
-                            Photographe & Cameraman <br className="hidden md:block" /> Mariage Oriental
+                            Photographe & Cinéaste <br className="hidden md:block" /> Mariage Oriental de Prestige
                         </h1>
                         <p className="text-white/90 text-lg md:text-xl max-w-2xl mx-auto font-light leading-relaxed mb-8">
-                            De la cérémonie du henné à l'ambiance de la salle, nous immortalisons chaque tradition de votre mariage maghrébin (marocain, algérien, tunisien).
+                            De la narration cinématographique à la photographie d&apos;art, nous immortalisons l&apos;excellence de votre mariage maghrébin.
                         </p>
                         <a
                             href="/#contact"
@@ -78,7 +78,7 @@ export default function MariagePage() {
                             </div>
                             <h3 className="text-xl font-serif text-charcoal mb-3">Film Cinématographique</h3>
                             <p className="text-charcoal/70 text-sm leading-relaxed">
-                                Notre cameraman de mariage réalise un film immersif qui retranscrit l'ambiance, les musiques et l'énergie de votre soirée.
+                                Notre cinéaste de mariage réalise une œuvre immersive qui retranscrit l&apos;élégance et l&apos;énergie de votre soirée de prestige.
                             </p>
                         </div>
                         <div className="text-center group">
@@ -113,7 +113,7 @@ export default function MariagePage() {
                         <div className="space-y-6 text-charcoal/80 leading-relaxed text-lg">
                             <p>
                                 Pour en savoir plus sur les avantages de choisir une équipe complète, n'hésitez pas à lire notre article dédié : <br />
-                                <a href="/blog/photographe-cameraman-mariage-maghrebin" className="text-gold hover:underline font-medium">Choisir le Meilleur Photographe et Cameraman pour un Mariage Maghrébin</a>.
+                                <a href="/blog/photographe-cineaste-mariage-maghrebin" className="text-gold hover:underline font-medium">Choisir le Meilleur Photographe et Cinéaste pour un Mariage Maghrébin de Prestige</a>.
                             </p>
                             <p className="text-sm border-l-4 border-gold/30 pl-4 py-2 italic bg-gold/5">
                                 Astuce de pro : Prévoyez toujours un moment privilégié lors de la "Golden Hour" pour réaliser vos portraits de couple avec une lumière douce et romantique.

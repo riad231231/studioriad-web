@@ -21,8 +21,8 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://studioriad.com"),
-  title: "Studioriad | Photographe & Vidéaste Mariage Paris & Île-de-France",
-  description: "Duo créatif photo et vidéo de mariage à Paris et en Île-de-France. Capturer vos souvenirs avec une approche artistique, spontanée et cinématographique.",
+  title: "Studioriad | Photographe & Cinéaste de Mariage | Prestige & Cinéma",
+  description: "Duo créatif de prestige spécialisé dans le film de mariage cinématographique et la photographie d'art à Paris. L'excellence du mariage oriental et international.",
   verification: {
     google: [
       "Pi6ympVQdiabD-ORgcertQN4VQacV7NPmKnNtHXNU7c",
@@ -33,8 +33,8 @@ export const metadata: Metadata = {
     canonical: "./",
   },
   openGraph: {
-    title: "Studioriad | Photographe & Vidéaste Mariage Paris",
-    description: "Capturer vos souvenirs avec une approche artistique, spontanée et cinématographique.",
+    title: "Studioriad | Photographe & Cinéaste de Mariage de Prestige",
+    description: "L'art de raconter votre histoire au format cinéma. Excellence en photo et vidéo de mariage à Paris.",
     url: "https://studioriad.com",
     siteName: "Studioriad",
     images: [
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
         url: "/stills/photographe-videaste-mariage-paris.jpg",
         width: 1200,
         height: 630,
-        alt: "Studioriad - Photographe & Vidéaste Mariage Paris",
+        alt: "Studioriad - Photographe & Cinéaste de Mariage Paris",
       },
     ],
     locale: "fr_FR",
@@ -50,8 +50,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Studioriad | Photographe & Vidéaste Mariage Paris",
-    description: "Capturer vos souvenirs avec une approche artistique, spontanée et cinématographique.",
+    title: "Studioriad | Photographe & Cinéaste de Mariage Paris",
+    description: "Reportage photo et film de mariage cinématographique de prestige.",
     images: ["/stills/photographe-videaste-mariage-paris.jpg"],
   },
 };

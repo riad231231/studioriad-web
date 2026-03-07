@@ -12,9 +12,9 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
     {
-        slug: "photographe-cameraman-mariage-maghrebin",
-        title: "Choisir le Meilleur Photographe et Cameraman pour un Mariage Maghrébin",
-        excerpt: "À la recherche d'un photographe et cameraman pour votre mariage maghrébin ? Découvrez pourquoi capturer les traditions, du henné à la neggafa, nécessite de vrais experts.",
+        slug: "photographe-cineaste-mariage-maghrebin",
+        title: "Choisir le Meilleur Photographe et Cinéaste pour un Mariage Maghrébin de Prestige",
+        excerpt: "À la recherche d'un photographe et cinéaste pour votre mariage maghrébin ? Découvrez pourquoi capturer les traditions nécessite une approche cinématographique de prestige.",
         date: "03 Mars 2026",
         coverImage: "/images for blog/photographe-cameraman-mariage-maghrebin.jpg",
         category: "Mariage Oriental",
@@ -22,12 +22,12 @@ export const blogPosts: BlogPost[] = [
         content: `
             <p>Un mariage maghrébin (marocain, algérien, tunisien) est un événement grandiose, riche en couleurs, en émotions et en traditions. Entre le changement de tenues par la neggafa, l'effervescence de la cérémonie du henné, l'arrivée majestueuse en Amaria et la ferveur de la Dakka Marrakchia, chaque instant est précieux.</p>
             
-            <p>Faire appel à un <strong>photographe et cameraman pour mariage maghrébin</strong> qui connaît parfaitement ces coutumes est indispensable. Chez Studioriad, nous anticipons chaque moment fort pour ne rater aucun sourire, aucune larme de joie et aucun détail de vos somptueuses tenues.</p>
+            <p>Faire appel à un <strong>photographe et cinéaste pour mariage maghrébin</strong> qui connaît parfaitement ces coutumes est indispensable. Chez Studioriad, nous anticipons chaque moment fort pour transformer votre union en un film de prestige.</p>
             
             <img src="/images for blog/details-mariage-oriental.jpg" alt="Photographe mariage oriental" style="max-width: 100%; border-radius: 10px; margin: 20px 0;">
 
-            <h2>La vidéo (cameraman) : Revivre l'émotion de votre mariage oriental</h2>
-            <p>Si les photos figent l'instant, la vidéo, elle, capture l'essence même de l'ambiance. Le rôle du <strong>cameraman de mariage</strong> est de réaliser un véritable film cinématographique de votre union.</p>
+            <h2>Le Cinéma (Film de mariage) : Revivre l'émotion de votre mariage oriental</h2>
+            <p>Si les photos figent l'instant, le film, lui, capture l'essence même de l'ambiance. Le rôle de notre <strong>cinéaste de mariage</strong> est de réaliser une véritable œuvre cinématographique.</p>
             <ul>
                 <li><strong>Les sons et les musiques :</strong> Les youyous, la musique orientale, les rires de vos invités... La vidéo permet de revivre l'atmosphère sonore unique de votre mariage.</li>
                 <li><strong>Le mouvement :</strong> L'entrée des mariés, les danses traditionnelles, la grâce des robes marocaines ou algériennes en mouvement. Seul un vidéaste expérimenté saura retranscrire cette dynamique.</li>
@@ -41,8 +41,8 @@ export const blogPosts: BlogPost[] = [
                 <li><strong>Les détails :</strong> Les alliances, la décoration de la salle de réception, la beauté des parures et des caftans.</li>
             </ul>
 
-            <h2>Les avantages d'une équipe Photo & Vidéo unie (comme Studioriad)</h2>
-            <p>Plutôt que d'engager deux prestataires distincts qui ne se connaissent pas, choisir une équipe complète (photographe + cameraman) présente d'énormes avantages :</p>
+            <h2>Les avantages d'un Duo Photo & Cinéma uni (comme Studioriad)</h2>
+            <p>Plutôt que d'engager deux prestataires distincts, choisir une équipe complète (photographe + cinéaste) présente d'énormes avantages :</p>
             <ol>
                 <li><strong>Une synchronisation parfaite :</strong> L'équipe a l'habitude de travailler ensemble, garantissant qu'ils ne se gêneront pas mutuellement sur les moments clés.</li>
                 <li><strong>Un rendu homogène :</strong> Le style de l'image (couleurs, lumière) sera le même sur vos photos et votre vidéo, offrant un résultat final cohérent et professionnel.</li>
@@ -50,7 +50,7 @@ export const blogPosts: BlogPost[] = [
             </ol>
 
             <h3>Faites confiance à Studioriad pour immortaliser votre grand jour</h3>
-            <p>Pour votre mariage maghrébin, entourez-vous de professionnels de l'image qui comprennent vos attentes et vos traditions. L'équipe de Studioriad vous accompagne pour créer des souvenirs impérissables, à la hauteur de votre célébration. <strong>Contactez-nous pour réserver votre photographe et cameraman !</strong></p>
+            <p>Pour votre mariage maghrébin, entourez-vous de professionnels de l'image qui comprennent vos attentes et vos traditions. L'équipe de Studioriad vous accompagne pour créer des souvenirs impérissables, à la hauteur de votre célébration. <strong>Contactez-nous pour réserver votre duo de prestige !</strong></p>
         `
     },
     {

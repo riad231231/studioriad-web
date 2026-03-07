@@ -60,7 +60,7 @@ export function Hero() {
                     transition={{ duration: 1, delay: 0.5 }}
                     className="text-sm md:text-base uppercase tracking-[0.3em] mb-4"
                 >
-                    Photographe & Vidéaste de Mariage
+                    Photographe & Cinéaste de Mariage | L&apos;Émotion au format Cinéma
                 </motion.p>
                 <motion.h1
                     initial={{ opacity: 0, y: 30 }}
