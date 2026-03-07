@@ -5,6 +5,7 @@ import { Reviews } from "@/components/Reviews";
 import { Gallery } from "@/components/Gallery";
 import { Videos } from "@/components/Videos";
 import { Services } from "@/components/Services";
+import { InternalLinks } from "@/components/InternalLinks";
 import { Footer } from "@/components/Footer";
 
 export default function Home() {
@@ -45,6 +46,7 @@ export default function Home() {
       <Gallery />
       <Videos />
       <Services />
+      <InternalLinks />
       <Footer />
     </main>
   );
