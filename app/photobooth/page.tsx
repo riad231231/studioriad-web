@@ -28,6 +28,64 @@ const photoboothImages = [
 export default function PhotoboothPage() {
     return (
         <main className="min-h-screen bg-cream selection:bg-gold selection:text-white">
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                    __html: JSON.stringify({
+                        "@context": "https://schema.org",
+                        "@type": "Product",
+                        "name": "Location Photobooth Mariage Paris",
+                        "image": "https://studioriad.com/pb-images/borne-selfies.jpg",
+                        "description": "Location de borne à selfies photobooth pour mariages et événements à Paris et en Île-de-France. Impressions instantanées, design élégant.",
+                        "sku": "PB-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": "https://studioriad.com/photobooth",
+                            "priceCurrency": "EUR",
+                            "price": "290.00",
+                            "priceValidUntil": "2027-12-31",
+                            "itemCondition": "https://schema.org/NewCondition",
+                            "availability": "https://schema.org/InStock",
+                            "hasMerchantReturnPolicy": {
+                                "@type": "MerchantReturnPolicy",
+                                "applicableCountry": "FR",
+                                "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+                            },
+                            "shippingDetails": {
+                                "@type": "OfferShippingDetails",
+                                "shippingRate": {
+                                    "@type": "MonetaryAmount",
+                                    "value": "0",
+                                    "currency": "EUR"
+                                },
+                                "shippingDestination": {
+                                    "@type": "DefinedRegion",
+                                    "addressCountry": "FR",
+                                    "addressRegion": "Île-de-France"
+                                }
+                            }
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "5.0",
+                            "reviewCount": "12"
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "author": {
+                                "@type": "Person",
+                                "name": "Julie"
+                            },
+                            "datePublished": "2024-10-15",
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5"
+                            },
+                            "reviewBody": "Le photobooth a été un véritable succès lors de notre mariage ! Qualité au top."
+                        }
+                    })
+                }}
+            />
             {/* Navbar is now in global layout */}
 
             {/* Hero Section */}

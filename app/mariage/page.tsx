@@ -11,6 +11,47 @@ import { departementsIDF } from "@/lib/departements-idf";
 export default function MariagePage() {
     return (
         <main className="min-h-screen bg-cream selection:bg-gold selection:text-white">
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                    __html: JSON.stringify([
+                        {
+                            "@context": "https://schema.org",
+                            "@type": "Product",
+                            "name": "Forfait Prestige Cinématique Mariage",
+                            "image": "https://studioriad.com/stills/photographe-videaste-mariage-paris.jpg",
+                            "description": "Livre photo Prestige 30x30cm, Moyen Métrage Full HD (45mn), Prise de vue aérienne (Drone).",
+                            "sku": "MRG-PRE",
+                            "offers": {
+                                "@type": "Offer",
+                                "url": "https://studioriad.com/mariage",
+                                "priceCurrency": "EUR",
+                                "price": "2390.00",
+                                "priceValidUntil": "2027-12-31",
+                                "availability": "https://schema.org/InStock",
+                                "hasMerchantReturnPolicy": {
+                                    "@type": "MerchantReturnPolicy",
+                                    "applicableCountry": "FR",
+                                    "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+                                },
+                                "shippingDetails": {
+                                    "@type": "OfferShippingDetails",
+                                    "shippingRate": { "@type": "MonetaryAmount", "value": "0", "currency": "EUR" },
+                                    "shippingDestination": { "@type": "DefinedRegion", "addressCountry": "FR", "addressRegion": "Île-de-France" }
+                                }
+                            },
+                            "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "28" },
+                            "review": {
+                                "@type": "Review",
+                                "author": { "@type": "Person", "name": "Leila B" },
+                                "datePublished": "2024-08-10",
+                                "reviewRating": { "@type": "Rating", "ratingValue": "5" },
+                                "reviewBody": "C'était tout simplement parfait ! Je recommande vivement."
+                            }
+                        }
+                    ])
+                }}
+            />
 
             {/* Hero Section */}
             <section className="relative min-h-[75vh] md:min-h-[70vh] flex items-center justify-center overflow-hidden pt-28 md:pt-0">
