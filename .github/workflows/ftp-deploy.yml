@@ -35,7 +35,9 @@ jobs:
           server-dir: ./public_html/
           port: 21
           dangerous-clean-slate: true
+          include-hidden: true
           exclude: |
             **/.git*
             **/.git*/**
             **/node_modules/**
+            **/.DS_Store
