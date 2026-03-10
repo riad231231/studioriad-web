@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { MapPin, BookOpen, ChevronRight } from "lucide-react";
+import { MapPin, BookOpen, ChevronRight, Camera } from "lucide-react";
 import { departementsIDF } from "@/lib/departements-idf";
 import { blogPosts } from "@/lib/blog-data";
 
@@ -14,6 +14,34 @@ export function InternalLinks() {
         <section className="py-24 bg-cream/50">
             <div className="container mx-auto px-6">
                 <div className="grid lg:grid-cols-2 gap-16">
+
+                    {/* Lien Photobooth — maillage interne clé */}
+                    <motion.div
+                        initial={{ opacity: 0, y: 20 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        viewport={{ once: true }}
+                        transition={{ duration: 0.8 }}
+                        className="lg:col-span-2 mb-4"
+                    >
+                        <div className="bg-white border border-gold/20 rounded-2xl p-8 flex flex-col md:flex-row items-center justify-between gap-6 shadow-sm">
+                            <div className="flex items-center gap-4">
+                                <div className="w-12 h-12 bg-gold/10 rounded-full flex items-center justify-center text-gold flex-shrink-0">
+                                    <Camera size={22} />
+                                </div>
+                                <div>
+                                    <h2 className="text-xl font-serif text-charcoal mb-1">Location Photobooth & Borne à Selfies</h2>
+                                    <p className="text-charcoal/60 text-sm">Animation incontournable pour mariages et événements en Île-de-France.</p>
+                                </div>
+                            </div>
+                            <Link
+                                href="/photobooth/"
+                                className="flex-shrink-0 inline-flex items-center gap-2 bg-gold text-white px-6 py-3 uppercase tracking-widest text-xs font-semibold hover:bg-charcoal transition-colors duration-300 rounded-sm"
+                            >
+                                Découvrir <ChevronRight size={14} />
+                            </Link>
+                        </div>
+                    </motion.div>
+
                     {/* Zones d'intervention */}
                     <motion.div
                         initial={{ opacity: 0, x: -20 }}

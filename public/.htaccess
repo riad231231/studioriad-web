@@ -1,10 +1,19 @@
 ErrorDocument 404 /404.html
 DirectoryIndex index.html
 
-# Redirections des anciennes pages vers la page d'accueil (301 Permanent)
+# Redirections 301 — anciennes pages vers accueil
 Redirect 301 /tarifs /
 Redirect 301 /tarifs/ /
 Redirect 301 /apropos /
+Redirect 301 /apropos/ /
 Redirect 301 /a-propos /
+Redirect 301 /a-propos/ /
 Redirect 301 /about /
+Redirect 301 /about/ /
 Redirect 301 /contact /
+Redirect 301 /contact/ /
+
+# Redirections 301 — URL sans trailing slash (cohérence canonique)
+Redirect 301 /photobooth /photobooth/
+Redirect 301 /mariage /mariage/
+Redirect 301 /blog /blog/
