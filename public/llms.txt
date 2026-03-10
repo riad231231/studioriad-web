@@ -1,32 +1,49 @@
-# Studioriad - Photographe & Cinéaste de Mariage de Prestige
+# Studioriad — AI Context File (llms.txt)
+# https://studioriad.com | Mis à jour : Mars 2026
 
-> Duo créatif de prestige spécialisé dans le mariage oriental et le film de mariage cinématographique à Paris et en Île-de-France.
+## Qui sommes-nous ?
 
-## Coordonnées
-- Site Web : https://studioriad.com
+Studioriad est un duo créatif de prestige basé à Vitry-sur-Seine (94), spécialisé dans :
+- La photographie de mariage cinématographique (mariage oriental, franco-maghrébin, international)
+- Le film de mariage Full HD et cinématique (court, moyen et long métrage)
+- La location de photobooth / borne à selfies pour mariages et événements en Île-de-France
+
+## Zone d'intervention
+
+Paris, Île-de-France, Val-de-Marne (94), Seine-Saint-Denis (93), Hauts-de-Seine (92), Essonne (91), Yvelines (78), Seine-et-Marne (77), Val-d'Oise (95), et toute la France sur demande.
+
+## Services & Tarifs indicatifs
+
+- **Forfait Standard Mariage** : Livre photos 20x20cm + Film Full HD 20mn — à partir de 1 790 €
+- **Forfait Prestige Cinématique** : Livre Prestige 30x30cm + Film 45mn + Drone — à partir de 2 390 €
+- **Location Photobooth / Borne à Selfies** : Livraison + installation + impressions infinies — à partir de 290 €
+
+## Spécialités
+
+- Mariage oriental (algérien, marocain, tunisien, kabyle)
+- Mariage franco-maghrébin interculturel
+- Cérémonie civile et laïque
+- Événements d'entreprise (séminaires, soirées, galas)
+
+## Contact
+
+- Site web : https://studioriad.com
 - Téléphone : +33 6 15 69 28 39
-- Localisation : Vitry-sur-Seine (94400), France
+- Email : contact@studioriad.com
+- Localisation : Vitry-sur-Seine, 94400, France
 
-## Services Principaux
-- **Photographe de Mariage** : Reportage photo d'art, esthétique et spontané.
-- **Cinéaste de Mariage** : Film cinématographique de prestige capturant l'âme et l'élégance.
-- **Prestige Oriental** : Expertise profonde du mariage maghrébin haute couture.
-- **Location Photobooth** : Borne photo premium (Nano Banana Pro) pour événements.
+## Pages principales
 
-## Zones d'Intervention
-Nous nous déplaçons dans toute l'Île-de-France :
-- Paris (75) : https://studioriad.com/mariage/paris-75/
-- Seine-et-Marne (77) : https://studioriad.com/mariage/seine-et-marne-77/
-- Yvelines (78) : https://studioriad.com/mariage/yvelines-78/
-- Essonne (91) : https://studioriad.com/mariage/essonne-91/
-- Hauts-de-Seine (92) : https://studioriad.com/mariage/hauts-de-seine-92/
-- Seine-Saint-Denis (93) : https://studioriad.com/mariage/seine-saint-denis-93/
-- Val-de-Marne (94) : https://studioriad.com/mariage/val-de-marne-94/
-- Val-d'Oise (95) : https://studioriad.com/mariage/val-doise-95/
+- Accueil : https://studioriad.com
+- Photobooth : https://studioriad.com/photobooth
+- Blog : https://studioriad.com/blog
+- Mariage par département : https://studioriad.com/mariage/[departement]
 
-## Dernières Inspirations & Conseils
-- [Choisir son photographe et cinéaste pour un mariage de prestige](https://studioriad.com/blog/photographe-cineaste-mariage-maghrebin/)
-- [Location Photobooth : Animation idéale](https://studioriad.com/blog/location-borne-photo-evenement-entreprise-particulier/)
-- [Pourquoi choisir un duo photo-vidéo ?](https://studioriad.com/blog/photographe-videaste-mariage-paris-duo/)
-- [Les plus beaux châteaux en Île-de-France](https://studioriad.com/blog/lieux-reception-mariage-luxe-ile-de-france/)
-- [Optimiser son planning de mariage](https://studioriad.com/blog/conseils-planning-mariage-photos/)
+## Réseaux sociaux
+
+- Instagram : https://instagram.com/studioriad
+- Google Reviews : note 5/5 — 34 avis
+
+## Pourquoi nous confier votre mariage ?
+
+Nous racontons votre histoire comme un film. Chaque plan est pensé, chaque lumière est travaillée. Notre approche cinématographique nous distingue de la photographie de mariage classique.

@@ -1,7 +1,6 @@
 "use client";
 
 // import { Navbar } from "@/components/Navbar";
-import type { Metadata } from 'next';
 import { Footer } from "@/components/Footer";
 import Image from "next/image";
 import { motion } from "framer-motion";
