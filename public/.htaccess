@@ -13,7 +13,6 @@ Redirect 301 /about/ /
 Redirect 301 /contact /
 Redirect 301 /contact/ /
 
-# Redirections 301 — URL sans trailing slash (cohérence canonique)
-Redirect 301 /photobooth /photobooth/
-Redirect 301 /mariage /mariage/
-Redirect 301 /blog /blog/
+# NOTE: Les redirections trailing slash (/photobooth, /mariage, /blog)
+# ont été supprimées car next.config.ts gère déjà cela avec trailingSlash: true.
+# Les conserver créait une boucle de redirection infinie (ERR_TOO_MANY_REDIRECTS).

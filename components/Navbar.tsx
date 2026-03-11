@@ -10,11 +10,11 @@ import { useLenis } from "lenis/react";
 const navLinks = [
     { name: "Photos", href: "/#photos" },
     { name: "Vidéos", href: "/#films" },
-    { name: "Mariage", href: "/mariage" },
+    { name: "Mariage", href: "/mariage/" },
     { name: "À propos", href: "/#about" },
     { name: "Tarifs", href: "/#services" },
-    { name: "Photobooth", href: "/photobooth" },
-    { name: "Journal", href: "/blog" },
+    { name: "Photobooth", href: "/photobooth/" },
+    { name: "Journal", href: "/blog/" },
 
     { name: "Contact", href: "/#contact" },
 ];
@@ -25,7 +25,7 @@ export function Navbar() {
     const { scrollY } = useScroll();
     const lenis = useLenis();
     const pathname = usePathname();
-    const hasDarkHero = pathname === "/" || pathname?.startsWith("/mariage") || pathname === "/photobooth";
+    const hasDarkHero = pathname === "/" || pathname?.startsWith("/mariage") || pathname?.startsWith("/photobooth");
 
     useMotionValueEvent(scrollY, "change", (latest) => {
         if (latest > 50) {

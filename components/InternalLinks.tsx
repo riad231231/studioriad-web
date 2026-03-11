@@ -101,7 +101,7 @@ export function InternalLinks() {
                                 </Link>
                             ))}
                             <Link
-                                href="/blog"
+                                href="/blog/"
                                 className="inline-flex items-center text-gold text-sm uppercase tracking-widest font-semibold mt-4 hover:translate-x-1 transition-transform"
                             >
                                 Voir tous les articles <ChevronRight size={16} className="ml-1" />
